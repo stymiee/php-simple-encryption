@@ -1,0 +1,19 @@
+<?php
+
+declare(strict_types=1);
+
+namespace JohnConde\Encryption\Cipher\ID;
+
+
+use JohnConde\Encryption\ACipher;
+use JohnConde\Encryption\decrypt;
+use JohnConde\Encryption\encryptWithPadding;
+
+class Idaes192wrap extends ACipher
+{
+    public const BLOCK_SIZE = 8;
+    public const IV_LENGTH = 8;
+    public const CIPHER = 'ID-AES192-WRAP';
+
+    use encryptWithPadding, decrypt;
+}

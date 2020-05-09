@@ -1,0 +1,38 @@
+{
+    "name": "stymiee/php-simple-encryption",
+    "type": "library",
+    "description": "",
+    "keywords": [
+        "PHP",
+        "encryption",
+        "openssl"
+    ],
+    "homepage": "https://github.com/stymiee/php-simple-encryption",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "John Conde",
+            "email": "stymiee@gmail.com",
+            "homepage": "https://stymiee.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "JohnConde\\Encryption\\": [
+                "src/",
+                "src/cipher/",
+                "src/exception/",
+                "src/interface/",
+                "src/trait/"
+            ]
+        }
+    }
+}

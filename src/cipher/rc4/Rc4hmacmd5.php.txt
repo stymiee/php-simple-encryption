@@ -1,0 +1,19 @@
+<?php
+
+declare(strict_types=1);
+
+namespace JohnConde\Encryption\Cipher\RC4;
+
+
+use JohnConde\Encryption\ACipher;
+use JohnConde\Encryption\decrypt;
+use JohnConde\Encryption\encryptWithPadding;
+
+class Rc4hmacmd5 extends ACipher
+{
+    public const BLOCK_SIZE = 8;
+    public const IV_LENGTH = 0;
+    public const CIPHER = 'RC4-HMAC-MD5';
+
+    use encryptWithPadding, decrypt;
+}
