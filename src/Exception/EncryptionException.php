@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption;
+namespace JohnConde\Encryption\Exception;
 
 use Exception;
 use Throwable;

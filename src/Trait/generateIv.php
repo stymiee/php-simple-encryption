@@ -11,7 +11,7 @@ trait generateIv
     {
         $permitted_chars = implode(
             '',
-            array_merge(
+            array_merge( // @codeCoverageIgnore
                 range('A', 'z'),
                 range(0, 9),
                 str_split('~!@#$%&*()-=+{};:"<>,.?/\'')

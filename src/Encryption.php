@@ -4,14 +4,17 @@ declare(strict_types=1);
 
 namespace JohnConde\Encryption;
 
+use JohnConde\Encryption\Exception\CipherNotImplementedException;
+use JohnConde\Encryption\Exception\InvalidCipherException;
 
 class Encryption
 {
-    public const DEFAULT_CIPHER = 'aes-256-cbc';
+    public const DEFAULT_CIPHER = 'AES-256-CBC';
 
     public static function getEncryptionObject(?string $cipher = null): ICipher
     {
-        $cipher = strtolower($cipher) ?? static::DEFAULT_CIPHER;
+        $cipher ??= static::DEFAULT_CIPHER;
+        $cipher = strtolower($cipher);
         $availableCiphers = static::getCipherMethods();
         if (!in_array($cipher, $availableCiphers, true)) {
             throw new InvalidCipherException('Invalid cipher selected');

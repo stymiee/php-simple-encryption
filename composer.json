@@ -28,10 +28,10 @@
         "psr-4": {
             "JohnConde\\Encryption\\": [
                 "src/",
-                "src/cipher/",
-                "src/exception/",
-                "src/interface/",
-                "src/trait/"
+                "src/Cipher/",
+                "src/Exception/",
+                "src/Interface/",
+                "src/Trait/"
             ]
         }
     }
