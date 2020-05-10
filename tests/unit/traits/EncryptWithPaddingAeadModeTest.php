@@ -15,7 +15,7 @@ class EncryptWithPaddingAeadModeTest extends TestCase
         $key = 'secretkey';
         $plainText = 'The quick brown fox jumps over the lazy dog';
         $encryptedText = 'TPS2iDizNXlFFqKlGuxcDwS224KeXDM5yliWGdI8BfW//VRaSW+38Fxi7Z55hgBS';
-        $this->assertEquals($encryptedText, trim($encryptionObject->encrypt($plainText, $key, $iv, $tag)));
+        $this->assertEquals($encryptedText, $encryptionObject->encrypt($plainText, $key, $iv, $tag));
         $this->assertNotEmpty($tag);
     }
 }

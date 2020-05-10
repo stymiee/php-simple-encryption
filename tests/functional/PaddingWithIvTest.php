@@ -116,7 +116,7 @@ class PaddingWithIvTest extends TestCase
         $encryptionObject = new $cipher();
         $iv = base64_decode($iv);
         $encryptedText = $encryptionObject->encrypt($this->plainText, $this->key, $iv);
-        $decrytpedText = trim($encryptionObject->decrypt($encryptedText, $this->key, $iv));
+        $decrytpedText = $encryptionObject->decrypt($encryptedText, $this->key, $iv);
         $this->assertEquals($encrypted, $encryptedText);
         $this->assertEquals($this->plainText, $decrytpedText);
     }

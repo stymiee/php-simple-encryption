@@ -1,0 +1,1019 @@
+Original Text: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+Key: secretkey
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1
+Cipher   : AES-128-CBC
+Class    : JohnConde\Encryption\Cipher\AES\Aes128cbc
+IV       : Qpd85nziw6ciMUqGuIUfJA==
+Tag      :
+Encrypted: +bGUhgdBQ2URBvsHg11LR4VJRpq61B1d8tLZfJ+7TYD5fL2W3P2wFh84crpdetaME/S0zgaoZfkEuUC9c6nNFHsc3D3NwZ+EclYUcy5h96ls+OjkTRzKZrnjHp3GzslEjrxucvWokphwvHw7MGAUSA==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2
+Cipher   : AES-128-CCM
+Class    : JohnConde\Encryption\Cipher\AES\Aes128ccm
+IV       : XY9tLwkII3Jqoh6x
+Tag      : 7V8WXJDYd4jArkK6JTUKzw==
+Encrypted: CrJdUD6JW11PqHRQlBXXzOFGuR6P8iCH+rpgU9uryggGgi5IyA25VQb+q2+M5uDk5jd5YcpFHhPAl9+zecWthqe7cGiPU+Yq0kw2J9vr6hZbkz2fS6xaroeHEt+2DIei
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3
+Cipher   : AES-128-CFB
+Class    : JohnConde\Encryption\Cipher\AES\Aes128cfb
+IV       : infPJVNnDZCrIPzV/emVNQ==
+Tag      :
+Encrypted: /PY2p55pMPxWkXqL3enORtyBeSK6/F+v8H+7NQr/POsolZVJATnezuRJcZ0DreedK88JbSxI9mUKyKHVZ4o7dmFdw4g/IKv+zqKhxxFygorV/t++myI/XvaWcXOhIoXm
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4
+Cipher   : AES-128-CFB1
+Class    : JohnConde\Encryption\Cipher\AES\Aes128cfb1
+IV       : 3x331ve+JcFBLEVO2/BSNg==
+Tag      :
+Encrypted: IXvkjWK9HZZpC5jkeTz3Ty938JBtoMqhv/d88yeM7rzz+NabVVsTv7h27vJr1aHejL9W9rxCZ0bwqdxbadB3Y7663BkC2saAZve8dVo2diBNNETYLVPYKTEk0N3iA/LQ
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5
+Cipher   : AES-128-CFB8
+Class    : JohnConde\Encryption\Cipher\AES\Aes128cfb8
+IV       : dvxe/7BaC48QXS1l4SToFA==
+Tag      :
+Encrypted: cVBG6f0c+8V+UCfg65DbAe1NBe/aQsJRS3cOOPYJw2stSmQgZeG+yV+LlpmqWSRo7Q3NFMGv310MgI9nLhD4iRHt4L5uL/dhmBcSzEJsTtvbIAb+bJzaVHtnrVBAlNT9
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6
+Cipher   : AES-128-CTR
+Class    : JohnConde\Encryption\Cipher\AES\Aes128ctr
+IV       : g+9LOjL+zlUgV0rXKblh9w==
+Tag      :
+Encrypted: 7viW35/Cs0gX95ZoXBbTVexZH1hQBmMCp7e2HMKk722LNJx9nExIae9LMQRcFMzhKNsMosQsHDnmpRy5qb4WL7kfUNqIlSmJ236Bpa7oAcOlH/GL9Z12p/IqezEbmF6r
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7
+Cipher   : AES-128-ECB
+Class    : JohnConde\Encryption\Cipher\AES\Aes128ecb
+IV       :
+Tag      :
+Encrypted: OBVVqF2HvqVvuwGAgTOHcsne0DNOFZfuLOmyVexZ+r+FJx6FyH4pyU41LdV5DZksFI/ztZj7wtwNRnMZOWtneMtO2MjPdxTPbUzuamFO9lEXh/qlGd0PNYncvDAu5T3DhzPEC47m+g/AVvyd1bCCww==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8
+Cipher   : AES-128-GCM
+Class    : JohnConde\Encryption\Cipher\AES\Aes128gcm
+IV       : A9npwi5CVcazhVsM
+Tag      : KVtnejvaYSpFxBmj5Bl+4w==
+Encrypted: uzLDZvOP+30PJCIGKQbFUE/mcDzNWAHCAUSmlY/1TKGEcz+XjPGZFHEkF+l7I9ipNXvkXIanWR5RRBsmajf1KgNHfBdDQLRfiX7v3T3jPLU0sr9STZiCadUcGacMDyaR
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9
+Cipher   : AES-128-OFB
+Class    : JohnConde\Encryption\Cipher\AES\Aes128ofb
+IV       : uojsoQTWQroilTN4pJ1/mg==
+Tag      :
+Encrypted: 39cHHp7quOQLbin0TS9Z3eR6HS5rFRhDGaoyY8Rq1DbxiVtcgRwJf1K+HwcunI4MEtzJ9iD3CjqLWISVbXUobRXoY612ovbKvAMj9o8O/PQQm2vsoAC47cXnhdxPpf0K
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10
+Cipher   : AES-128-XTS
+Class    : JohnConde\Encryption\Cipher\AES\Aes128xts
+IV       : oYK6+NBka1W/Ft0pcly7lA==
+Tag      :
+Encrypted: LhnMO4FdrHQozr0dTowe48T02FaXdc9uF0j9v/C0+cdzPyU5KgyauBl6FHj4sHWVpt3vvD+uoGwGz4yVaBf0VEAIJwdCVPrbkVqEyQQZVqS7mcfAiUTGsCHrqfCS1lng
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11
+Cipher   : AES-192-CBC
+Class    : JohnConde\Encryption\Cipher\AES\Aes192cbc
+IV       : x1/HAyo3/aQHRBeeyklGng==
+Tag      :
+Encrypted: 3j98TPFq5fDfqXF8AoNLP1CpTOxpQLZBsYSSVQRV4eVL5nVyYC0PGFppeYBrDSfbwBHiHkeI9n/JNKDBj4fZLnRHyU40TEvGyNCT0XPlKBKJymSiOCFWrP/t0lUcQR+scMVjd71xAZA0+7J099rmng==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12
+Cipher   : AES-192-CCM
+Class    : JohnConde\Encryption\Cipher\AES\Aes192ccm
+IV       : zJPj7NYtC5i3WdIv
+Tag      : tDsdZQ95AyElTgraw4Ud8A==
+Encrypted: pVCVQ1CWJQKG8S0dlF85Dgyc3kAD5WmhuqH2qVTshvWKRtBQ+aFFHUGfVPhUfMjdqIQPFCCEwm3q2imwNbgy8uGwI7aeyIqfCkUzBpOtQTpn+fONGRszFxuUAXZLja+z
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13
+Cipher   : AES-192-CFB
+Class    : JohnConde\Encryption\Cipher\AES\Aes192cfb
+IV       : ie616v0dEKR4+4V7YGlDbA==
+Tag      :
+Encrypted: hdBnz7WIZenAgawy0yZjcOq86zzTEPDFwwpgKDn1SXjRbYWCLV09Y2mS6n8vdbQLWeIsg2T+NP+DTxgs42o02pnLWyaShwGa8udtlENlndri7N51+MGuXuxMfsKeb/H6
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14
+Cipher   : AES-192-CFB1
+Class    : JohnConde\Encryption\Cipher\AES\Aes192cfb1
+IV       : umsMURX21L+bkTgyyXoIdA==
+Tag      :
+Encrypted: TE2cpxDUGCmv8LL1ouCJ5osVDUXeC5YsvmrB2GqJDJtl/aooZmFp/FQLZmaH1oqWuPl0uFXQuYYtEvvahqUEi+wsx+JovCgvVKA5WLsIzsU/j2+ZQ19FUNSNsZ3VNUS6
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15
+Cipher   : AES-192-CFB8
+Class    : JohnConde\Encryption\Cipher\AES\Aes192cfb8
+IV       : UsreC0tbGLek1J4FPqk1yA==
+Tag      :
+Encrypted: TsYrRnVwj4aoPdxHlNMrRvPWl+CWRknVBB8UUnVCBxsAMAFAQW442/+eJYBMKrdLZ51Vqs/Ou5NOz+C3soq+Bl5cUAqaw+Q9keqD3rwn78fAsaVUdb4BzjbJmJIZQ9MN
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16
+Cipher   : AES-192-CTR
+Class    : JohnConde\Encryption\Cipher\AES\Aes192ctr
+IV       : xlZtlrOVws+o5aI5ZnrgCQ==
+Tag      :
+Encrypted: mJg5HgZzipbcTrCIxfcrUYKjLkiysoDpieYLqe31PK6MPVmY6GJmDj07gn5EZRdngKhkGe/LodLfqNJJRcCq5cnrXU5ltUp/BZTnknAfeweidvLDLUNG0u1ZUMS36Ahc
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+17
+Cipher   : AES-192-ECB
+Class    : JohnConde\Encryption\Cipher\AES\Aes192ecb
+IV       :
+Tag      :
+Encrypted: +YKJDiz8Vz992lUl4NfBfCiko5KLTO+bIsvKsxfytFowQMDfL1lqoibYQMVqlT4/7T63NfJprcXhXByZPCNorcmY5+RwTn+EYGTo8O0V3GU8AYKS1RwZjqq6GIfzDIgOS3so/FJ2a6u/Gg/oNErNCw==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+18
+Cipher   : AES-192-GCM
+Class    : JohnConde\Encryption\Cipher\AES\Aes192gcm
+IV       : Xeis2SK1U0k36FYP
+Tag      : E0auttGMNHsInTwkBWMoVw==
+Encrypted: NdgSisaZHM8fA9Ykf+GDafZzd/ZVsrUprmOd/hRZTJQSLaS+WVj5Ft2qPBIl/M4Rciez01xeN+ZFzdDVjqW2z08u98njD/HnJd6qvUAIc4saOHVceIkGaAYcDARu03+B
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19
+Cipher   : AES-192-OFB
+Class    : JohnConde\Encryption\Cipher\AES\Aes192ofb
+IV       : xnA3CeZcSSHukIVAkty9Rg==
+Tag      :
+Encrypted: jfnVu/uALhoJstaNcOd4C+pJKdA76KeRbXX7T61yV/qby8C7hYBChT5PpwbYHbD4Kryy8CEM2RKsbxWrcRWh7nwG0yFyOUB8IOvsuckpsIv3R0UWKJhnvKVaHeosLoS2
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+20
+Cipher   : AES-256-CBC
+Class    : JohnConde\Encryption\Cipher\AES\Aes256cbc
+IV       : cJGo0qSdyYwJSY3HhZz15g==
+Tag      :
+Encrypted: 1SXQjKI9AaiLmYTa4i9ZpqQcIZFKKK0Zl/Lcc7qGmgMsy7xkXP5YMDQ3jzf1Gat3aDbAre2qYx8o5rMQqrcULuhzs5S12IKnwSZQ3h4uwXed3z9lqh6MORi1e+wc6A4zX9e7U35yD1SvW+9JH3OYiQ==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+21
+Cipher   : AES-256-CCM
+Class    : JohnConde\Encryption\Cipher\AES\Aes256ccm
+IV       : yUbbE2FUnGup8AUC
+Tag      : VSQkEjMUVYsxlzxP5ho0WA==
+Encrypted: SVx4hY7xRhBxN0Ck/NDCV9Lew2mmIV9+CGk8z/2R9rHXwsDCC1yRYwAk5PxuOmKIOcf7WNRPE7Ckmoo0HjlN1wddTqYUQIdQH0TjgsnzgcHpNr542U6ZxdKGuFIOstId
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22
+Cipher   : AES-256-CFB
+Class    : JohnConde\Encryption\Cipher\AES\Aes256cfb
+IV       : E9l60HQVmYkVn3ofrBfJlw==
+Tag      :
+Encrypted: 63X0yRIOCFru34NEeiP+Y6U4M2g4W+gSDgNtE+o9027ULLLGuuv4X9Mp1KAC1K2a3ro93K04KTdbxIoDGAuTMN2/mtkF6AJIeK40mPYq7BhyOU5eLnI/ozuiazCis5hZ
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+23
+Cipher   : AES-256-CFB1
+Class    : JohnConde\Encryption\Cipher\AES\Aes256cfb1
+IV       : azkXcAVp0hXXP2vRzFAzfw==
+Tag      :
+Encrypted: gZQHYXOiWFGW8Cugc0lrig1INC1xwDhbiVyQ5+I26qdD7HLAYlz6/gjXLqy7pm+FaCOWQ8/vUOxYEr4LObU0sCL2Coj6lRO/3CDwLUXAN7GCjy+hJMyKGCdHZoenAanj
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+24
+Cipher   : AES-256-CFB8
+Class    : JohnConde\Encryption\Cipher\AES\Aes256cfb8
+IV       : 5+RF+NB/xYdktGKvtDOYCg==
+Tag      :
+Encrypted: IHP9iqTxTRyqifmV/P3/O19ShNVzmh1ZQ1x7C2HD81mUxB59GnWed+0khER2RhdebQ5pOlppuayy5M6leLSmmwc+kKFKHdXKE9VN8vYx1LqBX1efg4dTN++JsA0QwJUz
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+25
+Cipher   : AES-256-CTR
+Class    : JohnConde\Encryption\Cipher\AES\Aes256ctr
+IV       : jQycUE8fwIEt7MkbRsgFEQ==
+Tag      :
+Encrypted: A43ZdodsU9lZhiMBT63BJKY8RzLIRuMxkvr1nQLW4CZ9dJnuopagXxmMIc1SM/AsudnVIGso0pgNXGTJLWXv6uT0amcEbWdxXVG2VTjkLfAwwIxkJolbzgSFArfszv5e
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+26
+Cipher   : AES-256-ECB
+Class    : JohnConde\Encryption\Cipher\AES\Aes256ecb
+IV       :
+Tag      :
+Encrypted: tAk3QdDUGg1XHB5YF9ZCILeHR/lLz8jTalgZpGX0PG79It3pnnKcfN5Rqohw1cx8QiFCJWRmvjSrPZ68QVlDOl6ALfON+o2+JhshhrQCnP8cK2cF0t5V9SzFPhn9tKo/K4WgRGopzze4YpWDW1jJbA==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+27
+Cipher   : AES-256-GCM
+Class    : JohnConde\Encryption\Cipher\AES\Aes256gcm
+IV       : xNX96GgIhLDXI+3h
+Tag      : aSWHfNZYuoKkZM7uUyyQPg==
+Encrypted: AfFvij1vlMfG/8NDFHTg2GEkgqUx7fogi77SdRm+a7bjw1VPZbZn9a1NGPIGC2/s9r0baky0td+vkBw/BFAKvj4WDGAiBEMBtTsYqHDdLVWjbqJRk9CbjXhUGNZTy+AC
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+28
+Cipher   : AES-256-OFB
+Class    : JohnConde\Encryption\Cipher\AES\Aes256ofb
+IV       : ds/PNrdpkCPCNgrHcKS53Q==
+Tag      :
+Encrypted: RYYNLFMevq6SrijaJYNY5svhUoGIE8LLwAqba35QWuTdA9ffrGAVHH3lEJFwpuaJsLEiYZB+vY7GbwQFcloce5pJuuD26+Hsd65wEB9338K/xWBsMAMzSB7oJS1m4PEn
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+29
+Cipher   : AES-256-XTS
+Class    : JohnConde\Encryption\Cipher\AES\Aes256xts
+IV       : GptqjGauAW8kt84AaRPs5A==
+Tag      :
+Encrypted: DpppeX50tLTRsQNbzHqLoizYFgu8O8icjCmadeUT8hiSfLcM1l2TnWubRYt5tJHvsAMs57KjB8IkDiDgj6SBMgiQaIdCRmYC4/HuXTREwqmWStLb8Bzes/mSv082o4Pc
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+30
+Cipher   : ARIA-128-CBC
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria128cbc
+IV       : HLvqzYmw31+C8lgrOxhLDg==
+Tag      :
+Encrypted: wHF11SaCABTzInecnXDDnLYrIN5uc/YWnrONVLNWzTDGjxIoCKJYjwbHW7SONw3ieFRI/hiQXzAmWrNsS2Z/6rnUBqNGwi599UqS4JQ2ma3tPiYV2MwUDL05ItpF92dU4blgQgSxp+utX9ATJYxpnA==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+31
+Cipher   : ARIA-128-CCM
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria128ccm
+IV       : FsiT7Trb14oiqE79
+Tag      : DCRaIkWqfQaiTyCRcZ6ORQ==
+Encrypted: DbJd9gdeBe/02pf6TUktpfGIAx5gzXBdw4iVu55/BJgVxQAXBcF346doIPy1zDEldvMN+chCixx9SkA7FeQaIfHwEO84pT+09x8LHijMvo47qOYANP9BVww/SDa1t17H
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+32
+Cipher   : ARIA-128-CFB
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria128cfb
+IV       : koMDvhgTqEE0y4ADB0zv1Q==
+Tag      :
+Encrypted: lW6+e4X55uO802fZPBlEq4+1zuxLnNENpuGkNdZhVyBhEti5hmDg0da+b67uAXvpSMMwpHoNCqLwygHS9+dtiYJU8TcJsapcjLhJo5ds39kvpBY1CkT5wPK9M9UEdg70
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+33
+Cipher   : ARIA-128-CFB1
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria128cfb1
+IV       : 0EoJYj0r/TrMCsrogz3cRw==
+Tag      :
+Encrypted: cHgiWYgwwjUqBa/fmCoOsZeYTuHWRyoGJjQv4uBVhOqztSwVrxZz+dXMCD+Vrh4kXqkqWyBKg8LwHtEtUJMKep9t/MnvuHORBZHjveRzNU7eOxGZY3Yw8lwj8DP4ym9U
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+34
+Cipher   : ARIA-128-CFB8
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria128cfb8
+IV       : lFEKreFLf9nC/Ydf6ZZ7KQ==
+Tag      :
+Encrypted: XI4i9l73h9e7mgCvX+/F5/Tt1V9D7nFTfrXCdUCYXMte5kmhKzIFwO4ooBH9G/CX0aYYyFQcJ7h9OSY7RG47HFR1knJHH0ciJNwOZrpKiqQ3b/sa7Ngbw0h8govjP06i
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+35
+Cipher   : ARIA-128-CTR
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria128ctr
+IV       : 6CD+cfACEW9/l8RG1ThkZg==
+Tag      :
+Encrypted: HvMwpXpwMclBo6MlbD4BLqNuAoTqs+ZOuRVe/rJpXQm6Dgkzvd7ANV11aD6H45G2oAcwxJyj3Hkfv9k/WETT8mZRmgVNtZJX0ZiRQJnGN9IRXDrCsE4sZbFl60GK9Njm
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+36
+Cipher   : ARIA-128-ECB
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria128ecb
+IV       :
+Tag      :
+Encrypted: rIoCEqs7c3InB5LYmsf2IQScgA8EY/rnzrjFgDkbvOXAkPg7/4zr3CYVMOIs5Ork5rWxStnO7YQ00J409QD0UaD+kBQlKn07OIv7ioSR0QleWyI+pB1d9dv6eHAkIetkGDzBzuRAWabZgx3HxePFNw==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+37
+Cipher   : ARIA-128-GCM
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria128gcm
+IV       : 8Jlge5iaMy4iaEuP
+Tag      : FLkX3JpCZ5fCab2/bry0Uw==
+Encrypted: GusKXgB21FkB6sxVguy1fAtkKUOkW9YSvtbNcmMyzgHKik3hf6o8v9G3jolJDbgIk6PIV8lVqdrTtjuXO+SPsI4+3zfKjM8yJ4GhWiSn3Pp1JO8osVKsKDfds2/Pkhb1
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+38
+Cipher   : ARIA-128-OFB
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria128ofb
+IV       : dV9/Ta50g5xQPxh0Sexzww==
+Tag      :
+Encrypted: 7M+WEpv+JqX1Q4v16jLzMa2H669AwTIryxMxjsQrRs807V0aeNXMHxF4dRS0gsIFkyTlQiG78OHawOIAkNZr8ZSNzVJw8ZlRY2DJza+da5c0ZHSDUOeZvo77iAJ3FhA2
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+39
+Cipher   : ARIA-192-CBC
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria192cbc
+IV       : q9/hcYLQRchbpgy8iYOm6g==
+Tag      :
+Encrypted: nU3EE7MGKl0yFlJcD9PU4/gB86ec98LOZHVYxwk17hyUBLdlNEm7okJzlqB/5KgxYCb6FyNR3uMZ10A24VP6/WC7yrWwTXxBJLW2nlWaJg7ft+4Eb45W8P6xF02vfmKOV4bzwaF2FPtgOq4al0aRHA==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+40
+Cipher   : ARIA-192-CCM
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria192ccm
+IV       : 9jnsBh/1FEStaYo9
+Tag      : GoWui6Pa+DIqDKiI7Pu3DQ==
+Encrypted: qzGf0h/0IRzl9OZ0NM4BFICmNrZTJZl3cQu1iA81hpjJ6gbQGDs7/VhMYW2SldvRpaASqMIenPzuqFk3z8H1tRUM7QoAwbUaKL8FUlXIyMMxy0GdacIRzM4LFUl+4i0a
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+41
+Cipher   : ARIA-192-CFB
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria192cfb
+IV       : vokwc96Ecd+TBBxGD1LRUA==
+Tag      :
+Encrypted: JKgXEVQx/cT5QVE0K4ub+hdCly+giTqZxKJ+nNqerVPaKyFoLNwAT1mfmAcD3tJsTzJ2msHxtTQFdONfPzxmShXZkKrxmceBbh4Rfr+kTylqqcFjjJQfZZEQolWmS4X9
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+42
+Cipher   : ARIA-192-CFB1
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria192cfb1
+IV       : /blbZl0y6f2CDlZLmNPVjQ==
+Tag      :
+Encrypted: cUP6vPIOkF+jzRtEc66zi1cJhKrRnTIfg4MyydDm1ocH3hNYCKero5LxvQ+gccHtxKOPm2m7DYXUMyGKMsMRbGi7nNUA336vid1AxdxO1SvfcoKMiyOSr6heICVbclnB
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+43
+Cipher   : ARIA-192-CFB8
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria192cfb8
+IV       : 5eoqekm/tgR/ZBkuO2Rezg==
+Tag      :
+Encrypted: FnAVUceFqf9efQuNlPN9btFzsyoT08xIUljJjQEbScpXVPuZjnq4MGRVMRajR70IohEZxhsqHVsi54ZxuIruckVAR3BLFJiH+z8FJj8yzzU4Gpdby/8PebJM1v8nKHD5
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+44
+Cipher   : ARIA-192-CTR
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria192ctr
+IV       : quOYRCzcnomxBbgf9UoKdg==
+Tag      :
+Encrypted: rLVQbogdoHBd3QwsTmA6/v5KSLVg3x5nJLLuLE/CQLGAVMBbqM9zX4FNowYtYIg2oiPHvoYb4+6gPNOOEhjsA3M23uzIeGjcd9p2uPYk4vapDZefwL5YHuoQrzzM/d7i
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+45
+Cipher   : ARIA-192-ECB
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria192ecb
+IV       :
+Tag      :
+Encrypted: 6cEkwWlA8SLxhCxAwVj2PoAtJ7tcaXXL34BTClIigzHuRtxT3Mzzxu0DF+k4twufEFCUD7Cfwli7gWUL+9JQZdkieiC70+KBkr9bqCHVFOq6jpwyMRlXDN1gOnP+/7t2K2zF84AtdYZ19xfU0qEK6A==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+46
+Cipher   : ARIA-192-GCM
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria192gcm
+IV       : FL4K9SXE6T685kLM
+Tag      : dZXMKQGyTtFbJj8MSQGolQ==
+Encrypted: NYkaH+qUFhuZlkSVvaSFIc+83c41Ww9J/CceKChNtlGSnki6e/4ynJvf7024XRkRWNr6Ej0IIr+K93V67vq5LVMklq71ZRACLlwQwi7sTpYYhGBWpzrwslno9lCA1jkk
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+47
+Cipher   : ARIA-192-OFB
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria192ofb
+IV       : IRj5Du+OxxYMg9J0e1Oxqw==
+Tag      :
+Encrypted: phriRoepw0tdCEDE9lBrAIvfnh6mRSnZqb+cooDq4YoRSnukH7WSVhRgxyklHzfCtEd9YaCB6jW3SjHhFgm/wNGtFhF1iHzCOxPNCeTq9ghiWdt8nhpgHmI0OLD4QYyw
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+48
+Cipher   : ARIA-256-CBC
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria256cbc
+IV       : cjzYoBz9j0uQNrL1TMe0yw==
+Tag      :
+Encrypted: 9X8CMestlV1F5zXWcV9NUjzxLz6xlJnzg0PgKV3iID9YEdqR8VIkA2Ox4jkikEui12QgRuSKTRwltoJybht7UU1MMunNk0KUYOfbJHzJ1qgoq2ugeyA6kRrL5+1g0kBc1ps7+f2xuEb7PQmZNYm8FA==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+49
+Cipher   : ARIA-256-CCM
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria256ccm
+IV       : nxchrGOtzsp+5D41
+Tag      : jZpERiW0VtV2TQkiFrwV/g==
+Encrypted: guritaCTPMythhungC5Nl8i7P1rNri3s//YkYXyuX5I5G9rUnMKrNd3gLmVgHIrhh0iX3MudOzXmI/ZHIvwvs5qxr0avwP3LhE60NHUMkvlekWnQLd5JHQ/OD+5TMcyf
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+50
+Cipher   : ARIA-256-CFB
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria256cfb
+IV       : OjryJWJlG09/AJLtVMDwCg==
+Tag      :
+Encrypted: yBHVBdxB68uCtvJlsfiUUZj/hkx+oNeQLqrivMfQDTtZjjd0ifljpVNP1viQKxcpZHODGSCRiiRTa2yA09RkS+wgfIY2O7LhfeFlCOgvl5DF8bJrFvWcwudJ80LRcW9Z
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+51
+Cipher   : ARIA-256-CFB1
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria256cfb1
+IV       : Jmxx32tW+ynS/tQsDGc22A==
+Tag      :
+Encrypted: dRqs2AfU+h4cNuWlpqD19vJopnNBT37tVEbDiTTVOZOf9G1kGfcuJRz6Z1MUZ3fbkod1n8r548ffXC+JB9Tyqw2ROmt3xl0U2ZY4DJdhQgsYTtHH4DFdwLy96zUjDTlN
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+52
+Cipher   : ARIA-256-CFB8
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria256cfb8
+IV       : ypxsh9jCKZeMWegD+IZ4SQ==
+Tag      :
+Encrypted: wdzsdtzRxWUpkNvQsoNH+DKJfy8tw5kFX6i5kkUZQ064undZHFVMLNKfU0Twx6iHf8JtOfV9VY2HhiKA8ytEwxKFwbWro6H0J/IM8ki+RjKm+rIi6OYsJ++DaAN8Droh
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+53
+Cipher   : ARIA-256-CTR
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria256ctr
+IV       : 8fPlUu7p3+AFJxxNKRvx/g==
+Tag      :
+Encrypted: ztTSlB6zoDejLY3nde8rATAg/v3CZ2Qk47HffhYX8EbONUCG/qXYubjaS2MIG4Il+5AdPaon5B5vFJ/BLrjE1TnDOere6SofYmUa+9sYhCfsnr+Z7rAYtH52Oa+DsQu3
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+54
+Cipher   : ARIA-256-ECB
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria256ecb
+IV       :
+Tag      :
+Encrypted: PqeWdK5M0y/zwR1VOIBiMTLtJ70lDJPdc22T6Nkj3ZX6ogEL1bM7Fmq2CG2xRPkuEv+Fm9JKllA0ORjnasMSdIekxTPSMtW88vMtfyOTZi5vjPkVzbK3apkqAsHkJfjMCve6ZkryBT91GfzBIKMOGg==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+55
+Cipher   : ARIA-256-GCM
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria256gcm
+IV       : o7Mvi6B3v9Sg+sHA
+Tag      : qMrg3jM4ABEPGY7400TArQ==
+Encrypted: DPmFfF6LoX2m0MFfBk8lD1cBMS2ni4HB4y43iGe3G2ogq3SFgPasO+1llrG+SereKCpHFPWX8d55z69Q0GyL0DGlChB6j/XDH1T72TvM4mDGs5o8DR6ofLW1Jgwf76aw
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+56
+Cipher   : ARIA-256-OFB
+Class    : JohnConde\Encryption\Cipher\ARIA\Aria256ofb
+IV       : EFmp1Hk/1tIVFpbLKadvRg==
+Tag      :
+Encrypted: s/4LNPvuOxh2N6YBltx6Rllr+utNQSqpIuFhAasRZ9bgILN7fVRyKMW+Hiyi46zMq3+4OMgRMshE8u7jO8RKNgrCIXe383JSNmCpbCLkbGBQSAonDDwgBmRFGG+KRk6D
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+57
+Cipher   : BF-CBC
+Class    : JohnConde\Encryption\Cipher\BF\Bfcbc
+IV       : ffPsZEe9ISM=
+Tag      :
+Encrypted: GoXWR0z5qklloX/gHAUDrSNUlSy+GFfElxo3anwKYLgE6Bcv8p3gp3M+UK1fksZXqfokCkq9FfquCdejwN7MbdDg0IzRK5v/JXffrQJjP7ctM3xh0X0wPcoedN5uKKLnRzXwmv5T57A=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+58
+Cipher   : BF-CFB
+Class    : JohnConde\Encryption\Cipher\BF\Bfcfb
+IV       : ndSH0svCU9c=
+Tag      :
+Encrypted: A0jOim99ojt0LnMJYpmw9od1cKbAzuMtXhMINe6kx/uqSWEcyNKZm5xlD2vNTkpn1BIk16OvE/k06kbziUbfGe5v8McoIT19gOZ+hkICskTMTw7Drxtc+K6xhsIilKov
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+59
+Cipher   : BF-ECB
+Class    : JohnConde\Encryption\Cipher\BF\Bfecb
+IV       :
+Tag      :
+Encrypted: Ps973AL57GrIwrEtFCDV2WIDUtdUmYMHjdvywXdlF2tFjnKv68EPk+6QNqdY7FUgHyntaFS7S+rUa4qYCscA++yFX613e95jqUD690wew5+5EjKt01/3CoYO9avVO8pzXSJLj+5Ea6o=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+60
+Cipher   : BF-OFB
+Class    : JohnConde\Encryption\Cipher\BF\Bfofb
+IV       : FMZXBBaU4rM=
+Tag      :
+Encrypted: b4XwLHnmNyCpysKP4NzyiL2xO4Xz2anUYK/Qo2MUrz4T5LwwrwopWrpYJUmdVUJY8GWh2tsD4b3+2FDG6IOI55U9pT7xObMNrG57FVYmew/xXkNhlKLy2CiTHGLucWSV
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+61
+Cipher   : CAMELLIA-128-CBC
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia128cbc
+IV       : q/Q/stjwin4L0eKo4VXXQg==
+Tag      :
+Encrypted: K1+L0lUc/3dc1sQ+AEXWFDwiKbhPVnxeGGTtiRfCqWEXI8n8vYBnjGFJYdjAmozuH4TI+iTZN02pYXrXIrckt5b9CdegkZNB64qu0ioMO+mInfpG/ESPw2n6FZVL2/2Ebgri7TCqguYqvAcYWMpApQ==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+62
+Cipher   : CAMELLIA-128-CFB
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia128cfb
+IV       : KqoC0bKROqeJrXiTXEYBhQ==
+Tag      :
+Encrypted: ipkZQ4Sa8L8S+CyQsJ2NAbDgho4/nv9keQUwY87yI8l57Os/+aWMjSSz4yb6sOPvu6bV6eT/0Jqaa2AkZJ4SfHySXjCMQCBBKd2sRRLf0GCUDvdhiAw1amVT7TsRd69I
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+63
+Cipher   : CAMELLIA-128-CFB1
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia128cfb1
+IV       : Akdxbx4CPE5dan5dKZWyqg==
+Tag      :
+Encrypted: YI58Su/YHBdAoRqXs7GXOAU9ver/3cHTs700JWb+zYa4Yf8PhKzn//1U7VhPDG7NSV8oKGoeLBGUo3sP6QKgP/vrWyRVZoO4m310IHTZU191AjAMGvvCtq7ufJT1/oW/
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+64
+Cipher   : CAMELLIA-128-CFB8
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia128cfb8
+IV       : wAqZHK0GbF5jPxm4FBrP7A==
+Tag      :
+Encrypted: cc+UgeByTYOI2PwF6yA42Lqo1CZdf/fuZxVGXC0Mb19uYbE/Vu72AciLTUlcaNCdf6lOH1SQSgOwENKc4AbCdeOyaxSdLZyYPa7SWxSw3V5R2ABzAmXlsFgholszUIb1
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+65
+Cipher   : CAMELLIA-128-CTR
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia128ctr
+IV       : KJpBTPCXKgnJf04MhI9UMA==
+Tag      :
+Encrypted: jKujhfDRZlQjV97j7632x6Xj6KvcubJlwBHAS1R30ZGbmFTQgdcB3XGX1twtbmG0imtGldYVh9wRHoUFjhN+FkfxQlFXisQDYEKcyF4veEh6oJDHwxsPMJIjMG0HGbz8
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+66
+Cipher   : CAMELLIA-128-ECB
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia128ecb
+IV       :
+Tag      :
+Encrypted: 9osF6uu0wQx+1+IDztSyvIifqpFJDvEb/mdGxmsjPVcjQY6s+kRIcK5XejWRoMC6GykV/iLZDxfwSORkKIx3Wn65pIDTTIyGZg7oCKtemRgbXID4wCG3G0+mRj0c2F32CdxG/hF16HNdXOrLbz0W8g==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+67
+Cipher   : CAMELLIA-128-OFB
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia128ofb
+IV       : Ayrv99S9rUrZwCxUIc//og==
+Tag      :
+Encrypted: hkeNRCPi/hsdcIi4JtZcY7u4CRG5t3QpEc+uwmiY2FIBzjmz4Y+9kvByv28ISi7+t0/jppNgEcGANUJRjJ9T7wjgAAs6xKhF4AKyoqwGHDBOQssE/BYBKMMb1QoM+H2Y
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+68
+Cipher   : CAMELLIA-192-CBC
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia192cbc
+IV       : Z39i1WhPNKonfhf0KCViOw==
+Tag      :
+Encrypted: pq3yVNo1ZsNSDM0lJG3SqeLizq2gh3PA4j4V/KlNTgju/LO+R/FncxWLyujly63wD8bnCCXbmmExG+20Cwk+6W2NCXtjKqzN1RB55d+jut7SNkYY/WljeU4s8KNqWzAY5+bT4ZBVji9nYyUrh8rpaA==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+69
+Cipher   : CAMELLIA-192-CFB
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia192cfb
+IV       : QT6hGTWVHyBTMM9ZvVaX8g==
+Tag      :
+Encrypted: QMf2BpLLN4+uqgYt4gmlKSUlXPCR2Zi+EKoS8aptyvEQI6sqL+3u0WLkXL3l0cIGYG6nG9i0DFqUeDvMl3bWef1pBAcoUy7Yyn49i7TwuwATn9jFsv2tqhY6kvc+wgVn
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+70
+Cipher   : CAMELLIA-192-CFB1
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia192cfb1
+IV       : HEL9GSPMxsi7P8AIqubgQQ==
+Tag      :
+Encrypted: VlQJrTJp3m8PtLA42YMz8FGXdrV1757m8Wr17dm6GJwvH3gflGlpx5OTndKlXccEh93y8NK7rTkIp0YU0XeZFqvi/Nwt5wZ+JVjHGpsrHDjkqOeggbWYN0/u9wQUbIyQ
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+71
+Cipher   : CAMELLIA-192-CFB8
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia192cfb8
+IV       : lHQevmlHmdPP61gsQGG4Iw==
+Tag      :
+Encrypted: ng+Wg9jhx7f3SQiY3NI3uouqslfVin7dyTvSa6sHUcIBhZgNCtlmHY6A3NDwhmbo4JQAYDFBfoA/AODpPpGSJk5IYwv+babDcvCtfRttBhmyN2+MXOkOS9xjw4cCO8Eg
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+72
+Cipher   : CAMELLIA-192-CTR
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia192ctr
+IV       : dQHpS30MDdY5yChsZ8PCiA==
+Tag      :
+Encrypted: nUlGHokujeL/oG9hCKEtIReXkG6c5W6nC0wv9A9ZxlEq8ZTYvCgE5A8YhxfHWl0RdWWTQJw61xTbN1e69AW/LOE9lBXm7ff9M1A5Gn4H/ITSZ/nqFym6nQcQWLbokr8Z
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+73
+Cipher   : CAMELLIA-192-ECB
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia192ecb
+IV       :
+Tag      :
+Encrypted: J3YClWbHIAZx+D/4h/RiJ7MYC3uzHiFeb3sPnW0Yr3FHFPouSEV2RLwiwabYst2Aac07kcpeX73VD9WRATM/FheYSmIVfxREuZdDIuuB2MWW1u/mr69Fxgu8Wjj2n3rC9g3OOW3ElEGNRQnSG/r2cg==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+74
+Cipher   : CAMELLIA-192-OFB
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia192ofb
+IV       : OrGt+O4/t/rrWE0/susZwA==
+Tag      :
+Encrypted: z4U7KA/n4fIVD3SzAEJPxLJZCFCKce2AUDmQiCWAPznbgpsvCkDiiduP2uhZBBKaK/4UHnaYukx3yhLIhAQY3Ekyl1RgHf6EM6K5Zr/QzODLcMy7bdeW71pfCpPAFSg0
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+75
+Cipher   : CAMELLIA-256-CBC
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia256cbc
+IV       : ffiwfNNSCvu0M9V1GJ/LMg==
+Tag      :
+Encrypted: 6EHkNQc+rfrO0uK4c9Sb67FChe2XrgcWmDUf+jCv12+0KuzXmgYXL74Hq0r4ZwfgcI8MDsOT6t1sWtJojZPew22n+XvGtmX70x4MpTqqAZunVWrl8zTIftR+SvWe2oNSkWAtImY7uvapCjcqqnzM9g==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+76
+Cipher   : CAMELLIA-256-CFB
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia256cfb
+IV       : JkahOwBmlsBMPINDDubP7w==
+Tag      :
+Encrypted: rqkt8Zi8vnnFE0U02iKALhRniyIgD3JnfjpgK61eTfnyQDwa6+x9e2lVgd316Wb0pNvZoQI0LbrHea9XiiFfFPTJ0aqZah8GkofPtW5h+6VGzejo+GT2EO1MqMvExfF1
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+77
+Cipher   : CAMELLIA-256-CFB1
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia256cfb1
+IV       : R2t54forUBai23CXybsgdQ==
+Tag      :
+Encrypted: pPQKfpWwJdm4PDRVVvJA3PuUb9m5DIE+ssscuZre4PtwAHMhXxAKGAW3AH/QPI5rn2b7WR0/Ne3mi+UZFOXZculWj4XURor/unVrbS0hNYjkryqpWYfVUPXb2zxeW2Fg
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+78
+Cipher   : CAMELLIA-256-CFB8
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia256cfb8
+IV       : xCw2HRkyqelLyovfMzqKDg==
+Tag      :
+Encrypted: zl/kKzXqrkDoeRfuu0atvy6DwXQq8JoyhBmRHQOye+pRnW5a5hBLybdRKPykMQCh8Efdbyd81fR284bEb9LEbTxVbDBRKNjKrargllepCUaKuIZSuR4gtjHOFgZBN2jX
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+79
+Cipher   : CAMELLIA-256-CTR
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia256ctr
+IV       : 07uimg2n03Gc7nyjMrRKPw==
+Tag      :
+Encrypted: +6suIQWzwnOVNUq/YpHs98qAvYoqGXw0STwIMJFvAmEoUjXWisA98QX1GK4yCNmPuZ2iB7ImoFO0Sk7xKlgp+xesRhxAd9x1LOoCSNfoKdiIiYUEWMIUzLKzQBtNZssW
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+80
+Cipher   : CAMELLIA-256-ECB
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia256ecb
+IV       :
+Tag      :
+Encrypted: JbQEKdBt5/uCWJ4tJ6A3MkSObfyyNn9QAwx2BrtfiFNglFPWfSmA7LjIYfxpH3hlVkFippfrShcehhR6XlQrBVKmjM6ySU+wFBQPQy77++dkv7Q9wsNY3+h3aZpQu3083DlFarzF2MjkJEWv/c7dLA==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+81
+Cipher   : CAMELLIA-256-OFB
+Class    : JohnConde\Encryption\Cipher\CAMELLIA\Camellia256ofb
+IV       : GohcsFz06mOq0fJgqqmo0Q==
+Tag      :
+Encrypted: kQiSxiZpQMXdKzOZiZimlUyoaX7cvKNbBMYPC3TDoyDu6/FyDkRYPRyRTEAwxTymrGAasC6oLYwsksk0j3xEECD5JyzmMIbLYer2xeyVKkXpskd5z/kzZF2VHKHNsoux
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+82
+Cipher   : CAST5-CBC
+Class    : JohnConde\Encryption\Cipher\CAST5\Cast5cbc
+IV       : 0hM6dvnpSSU=
+Tag      :
+Encrypted: /1inkpzMN1xoCQ6ZkuDurOmubO6F4UgXuGw4UojcDYsCh+ZhYRxEV8SgaPr+ZGHT9967t2vp4Fhqjr4FPjybDN0u4jnHHfInNMZw0Qc0s1EAQ5Cie8JP9KBFLuUdW++TN9+e3JCJx8I=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+83
+Cipher   : CAST5-CFB
+Class    : JohnConde\Encryption\Cipher\CAST5\Cast5cfb
+IV       : jwwmniTm5mQ=
+Tag      :
+Encrypted: 5mx2EZMxPUV8JARLiB4pFNuU+ChP/rEgeKx2ohFHK5KbMlHUmsM1h4RQpJJfszSLvIJ1LTSbJZRhqNZqFlC9fBsg5wIH1nHFSTURXBsctqAImnJ6fT6vmH8b+MaTt3BP
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+84
+Cipher   : CAST5-ECB
+Class    : JohnConde\Encryption\Cipher\CAST5\Cast5ecb
+IV       :
+Tag      :
+Encrypted: fX9fQ4qQyBkFBeO8IR0mAdTFr61X7+PYKcj+VwvrS8z6U2a4MySrUChR/aKTd/Yx/4HuJiXN+Y79G3u00oV+Ui3Wa2CVUeoY6tJL+NIINqlw5uQ9KHXS8nbk7nR2Kxt8OHmb8LV17Tk=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+85
+Cipher   : CAST5-OFB
+Class    : JohnConde\Encryption\Cipher\CAST5\Cast5ofb
+IV       : Jgps2S68ufI=
+Tag      :
+Encrypted: qyVWbgkbGc5ctxLvDWkAR0yOaZnWWM+JTX9yGVQkVi7rP+/7diVJ34q2fQ72guaWjcTqh48le0sycIKHJpMgsYzugYkq4zW1oB8B8GUMUICD6IuVP8tdacml5DlFuE4e
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+86
+Cipher   : CHACHA20
+Class    : JohnConde\Encryption\Cipher\CHACHA20\Chacha20
+IV       : lGEDi0WhaI/YqqkX1PjtnA==
+Tag      :
+Encrypted: isu+3SoZgTQZAoKmNitkpop1zoQ9neBWIiuhLKA4Y7gskvuWBFrqS51FefM96uBEJ8IdGsf97VVG3iqAD5oYOv6OKMv7QwXVOeA92d5uIb6wK7T9iXyzOj6QAToZTNj9
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+87
+Cipher   : CHACHA20-POLY1305
+Class    : JohnConde\Encryption\Cipher\CHACHA20\Chacha20poly1305
+IV       : 4MA0d/QzKrn1b8qj
+Tag      :
+Encrypted: crIrvBj0G3UKClGnRGW7O8ntTksA+8FRBkyO7PaF06FlhELspuA9tM9LaQhKmCTGFnxuR+elG7AyW+lvByC9ryfZ/RTvVFINCeb3KkA2nYPgjU/GoXA9InVuDxHypYUx
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+88
+Cipher   : DES-CBC
+Class    : JohnConde\Encryption\Cipher\DES\Descbc
+IV       : rrZ1XRTFAhY=
+Tag      :
+Encrypted: Z1tdiWUJhR8WmXf7uVRfVDC3OCy/pCi9eYFeUmc1fX4CCIlO8AtZp6+pMoEFAEez5leAW2TZm64O1ttHQThtv/lrGro5iRP14Y4+l33IyUutN/chvKFy5p084+/lTe9zWi2/nX0i2E4=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+89
+Cipher   : DES-CFB
+Class    : JohnConde\Encryption\Cipher\DES\Descfb
+IV       : 3/BV0NyNfns=
+Tag      :
+Encrypted: wrNM6OXoTSUjxBNaiTUdD6Qh0ReZJCIRpUz+yftInT3zFVcfacNTtxJWdPX5HhD8AMbLVTxDYfhSmW0cspOyntBvYeckVgKRxgHda8gVG8fMOCi/o0tKUbBktdqpu08r
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+90
+Cipher   : DES-CFB1
+Class    : JohnConde\Encryption\Cipher\DES\Descfb1
+IV       : c83q9AH9sRo=
+Tag      :
+Encrypted: /TwgS5whWkpDQXXKGgo9PLJPkkWnlUa+UweKzyG8uPMqtR/Yxw0DJP4Ac+RoJDSyCbHVvQ1mDJVG0ZNzJzIYECsTqe4vo1jbinJvI/eapPvs4dAJ+qxkUUQh+DULQj/J
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+91
+Cipher   : DES-CFB8
+Class    : JohnConde\Encryption\Cipher\DES\Descfb8
+IV       : h84MZy6MedY=
+Tag      :
+Encrypted: ZIU7MOlMa4P6PFhKY3bqP6GTHSO8pen6NlxCSmcls786wGhWhI5XokVoYLZaRTC0qNiRYyZrR35yHRMee0YI1dneCpc4pthnFLfDyWSQTt5mIw0DLtoLEWoxCIGFc+5n
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+92
+Cipher   : DES-ECB
+Class    : JohnConde\Encryption\Cipher\DES\Desecb
+IV       :
+Tag      :
+Encrypted: RbmrR3hMiPw26PuaZCf2bMGU6opqIjjZ0gyEmodEf1vRImnJ6T32d9NFr22LOq+9vFIwe515Jx4za/fLexcjkZShzXkBI5xtyDYlQoYFIUk8CwCnieUZWRIiklvfCtju3GRr2Tvw1lI=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+93
+Cipher   : DES-EDE-CBC
+Class    : JohnConde\Encryption\Cipher\DES\Desedecbc
+IV       : OJ2aFqHzFAs=
+Tag      :
+Encrypted: +phUaIU7YRLeXedcre8OeKT7M28nMf19ALNtzOLfuWGkV8+exJ9MsOJWNVaRTiU03udf3NmuQ9Xkj7icc7thBoYLJoH6K3CbfHkADfPBmiNEFCZQ9vK4cWtoFOH4ayduIfNQuiYa94w=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+94
+Cipher   : DES-EDE-CFB
+Class    : JohnConde\Encryption\Cipher\DES\Desedecfb
+IV       : 0Qu/ZNbePp8=
+Tag      :
+Encrypted: 07kD7qLm9egIv6GGsLBYz96+dnbqPUZU3eEzYOtUlwtp7YefDAnhKcdyFXzV94XO0P+vlpaAtChHELGRcj/YHLCiV44k5IFnOQuqnnTuE9Dn2PC0LO9MgyCt+lQu++Tq
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+95
+Cipher   : DES-EDE-OFB
+Class    : JohnConde\Encryption\Cipher\DES\Desedeofb
+IV       : mZh6ilOGnJU=
+Tag      :
+Encrypted: t3bBRiGEGuo3qa4kAM4B5dxxrDLJktPIljkb1lY6g7GlmCxeqL7QoCFuwZwkQKUP2/jT4O78XnQR8jQKSNCrJ9itXf6C6/SE8JA7UrNFWiFOyY0MVkNccIOh1dbbzslT
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+96
+Cipher   : DES-EDE3-CBC
+Class    : JohnConde\Encryption\Cipher\DES\Desede3cbc
+IV       : r6YRMsqR5LY=
+Tag      :
+Encrypted: pSm6dVv8O6vRW/LTMzCpcn5pdwOjTwro2uQ6sI7jGbWCryJRFb/5ixj0oi1YNd9/QlhmKBiZLncPjCYZO/MAchAfXUppw1FR9HgBg5s+9LS7b4FNtP8gVnQUSIV6ci5eDYlThcupTHg=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+97
+Cipher   : DES-EDE3-CFB
+Class    : JohnConde\Encryption\Cipher\DES\Desede3cfb
+IV       : z+V+5Bx88DM=
+Tag      :
+Encrypted: rpE/F0bJNGPWlm8wNYDSwXQGFHzhQ1cSO8igmGZ89t/c++JukXO7p0MPu/HufiTfopcoJ/wBiSbp+QryeZMe/vRWk63RGP49FjjFONKjC1B4ONGatixZQETGldS8HNpo
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+98
+Cipher   : DES-EDE3-CFB1
+Class    : JohnConde\Encryption\Cipher\DES\Desede3cfb1
+IV       : 6aYAgHC8tB0=
+Tag      :
+Encrypted: QnR2NCiCPUONKieuEvDkx6rmi5dbiVAtJsPHvDdvNUqxS1A7ReAWn+5GIibBt3mvygpUZ7IbCG8l+XcA50BqvJMjotbH2sV+EBwHaRx5ScRjQlschJRG4cxnVqXxhLuN
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+99
+Cipher   : DES-EDE3-CFB8
+Class    : JohnConde\Encryption\Cipher\DES\Desede3cfb8
+IV       : G3yr+nK8D7Q=
+Tag      :
+Encrypted: /CJmHos7TZzIoSlehBlcpKpuCtgURbpeD9EiZJiwLACCK48T/UzPsxwTy8PIquIKB5QLrwY+/GppbEBVVohXrUnVWXQ13KQR8YlngTCXjr6uIF4vBS/giSKNG0m/CycP
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+100
+Cipher   : DES-EDE3-OFB
+Class    : JohnConde\Encryption\Cipher\DES\Desede3ofb
+IV       : q9se5NTThAQ=
+Tag      :
+Encrypted: iHqFnAvbdcfWQb+BOyLhQti7UvhJE6eNZEdZjgugTefSAYkwz7tBEhmJyacj1Lfr5ivFcssK0L/AkpF0Uy9YYe8blwinpoWC3KTtrw4q//r11uQFmY1P0PSRnRskmM/r
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+101
+Cipher   : DES-OFB
+Class    : JohnConde\Encryption\Cipher\DES\Desofb
+IV       : VZ6HUTQVG2Y=
+Tag      :
+Encrypted: x+7fSh8rsEO2EFBdt5DlwLqoAYyT+L5kZD5diUlA33NWchACYrng5+tPuQ2AmAEfQlpaO+rhigrwSAEOdmif3st6Sd1sSOP6/suRmwDIjdY67DQITLAyPX02fsMmtrcM
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+102
+Cipher   : DESX-CBC
+Class    : JohnConde\Encryption\Cipher\DESX\Desxcbc
+IV       : WUTcn42GF3s=
+Tag      :
+Encrypted: 6l2WKqIU/jlJXD7KjPD7axdMjEXCJYF5h7gjkM8Fk7Luy17Za2Adsvg169MTJzz26aL78EEXAF5eQPHP/zsBbuQp6ydK23EOfAcim1U+32vbWZyqo2ANw8sjosw3jF/P7tdhuzIhdeQ=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+103
+Cipher   : ID-AES128-CCM
+Class    : JohnConde\Encryption\Cipher\ID\Idaes128ccm
+IV       : +OikfjrOMcpkErFi
+Tag      : olcT6ccXEseYesX8vNNiDg==
+Encrypted: j865TUDW81GkgeTOzrjt14HigXf7pQw1pu7CraqMKqr76eHNLGNV4o6+nLwbduAem3gmkppovedxsltF55LawdY5NtuP8x900dCnkVao4ZrEwgJt8Xsd34aL++yWEiGq
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+104
+Cipher   : ID-AES128-GCM
+Class    : JohnConde\Encryption\Cipher\ID\Idaes128gcm
+IV       : +WZvcnvGeaad8JC/
+Tag      : sbuUDQS7b0wqh1DgHCO9qw==
+Encrypted: 55sYhVGQ8WHv7hgZbHIB5aBcOO8tteEPmXNYWqn5SF4DE14pwdYViqY8kyqr6wyzc4f6kP6IhIsijYbyFVC6armPkq76cmqAvDc45eCOXmt5xBa8ojKSa+dgUkg8ePjl
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+105
+Cipher   : ID-AES192-CCM
+Class    : JohnConde\Encryption\Cipher\ID\Idaes192ccm
+IV       : 64clWfAXxjCVGuB2
+Tag      : vYazDTHmj1uu3cONW58Bog==
+Encrypted: d9RpDIeX3qF+8JN2CA6z92yMYbD4Z1rJwM2EmJ+jhrJEr5Rbx4zE8YMAV5pm9H93ThrS7gEhjSueNd1Haoar2qiuGqga6A3OlnwdAkDPt+SdFN/TzCIq5XXnOlIux9LI
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+106
+Cipher   : ID-AES192-GCM
+Class    : JohnConde\Encryption\Cipher\ID\Idaes192gcm
+IV       : NYkZqK/9uMtDDaML
+Tag      : MXh7a/D1K9XNTIY2x/ZX8A==
+Encrypted: 2jM71EX81cnXYfXJ1eF8Nxgd8qk3kBzspMlgzI4FcQP/IqkOIjeHDn8CxbS/q0khUeOGtxvKIUVxHQNuiItU28/Kr7/NoYkpTtpWOchCQVuJk/vIVThEi+M/cHD3qV0Y
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+107
+Cipher   : ID-AES256-CCM
+Class    : JohnConde\Encryption\Cipher\ID\Idaes256ccm
+IV       : 2fJf10vzhUHee4o9
+Tag      : DzZTCAF9QCG08R1mxX5F3w==
+Encrypted: an75d5Nb2FeaIOig+FKFHAi0BRWm970bbaB0xXf11mHx9h2P8TrsNtPxHoK+eMjG8o8vCx9kxfTdJ6R8lYsp4kHxuy9kFvXXS9O744aIvYwp+/gT2tAMO1aFkI9GtOxu
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+108
+Cipher   : ID-AES256-GCM
+Class    : JohnConde\Encryption\Cipher\ID\Idaes256gcm
+IV       : kQir+d64Vt+jN9sD
+Tag      : Eh49oa/I4l2t9dy97PWzig==
+Encrypted: /DEukFLyw1cEcquGkcaQlVGyJER/ZkU8wMpwiQlwJX201iBKUtwYygPsTCdsGwQH/eIemeiINmV/eObae1FK10Grgx3hMI9P+wBonvkQAs/r9PK0992PttmxpAi2yMNu
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+109
+Cipher   : IDEA-CBC
+Class    : JohnConde\Encryption\Cipher\IDEA\Ideacbc
+IV       : 0JV8X4k5GyU=
+Tag      :
+Encrypted: 9rHFQgmp3ZB5qroBl3NRGsEMEWUIdQOQuWjEkj2OZuE/zl/eMyxqJEwbReLOw3IVYdzLur0n051G3b1ItgoDxQwe8Ni9fuaAiAbeV5jjrY3AP94w1/hGrCr6pUvAUgTQgZFsmW4P5wU=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+110
+Cipher   : IDEA-CFB
+Class    : JohnConde\Encryption\Cipher\IDEA\Ideacfb
+IV       : Oy+o2Yfk7WM=
+Tag      :
+Encrypted: x0F0jdX1i1srqsqiGdnZJgXdUhA6OZjjc06mjHq8VhzsBAqBW9Kpw+JY/JwnMjB/gR0cdKev2Lla2r57RFnfhVapOTthj6IJ/UipDtYuqo/6dDGwlaNEafqSlSbdsR0S
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+111
+Cipher   : IDEA-ECB
+Class    : JohnConde\Encryption\Cipher\IDEA\Ideaecb
+IV       :
+Tag      :
+Encrypted: 3wYh4ZNlmhB+D88+MZnlqucRpc3lqNovURlajBdOK4OJwQFFcBwtl1fuxGMTsxtRvV8YHuCV39/xbvnvOw2o2R46AoDSVEAj6nVUJc1S4FG/qYkP+MMihQMb9Lsz8ljw+fVxVmS13zY=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+112
+Cipher   : IDEA-OFB
+Class    : JohnConde\Encryption\Cipher\IDEA\Ideaofb
+IV       : VZyXAT/QSmc=
+Tag      :
+Encrypted: pXaqf7YmFidOkvq2mXCUpOD3cLaCsLMwcCUTkY3EKQYlPtIvm/esL935bts7iUR1nZHP2SJVnm//QbXIwS5PJd9XuRjhycYGaN8vgLVsJfODHnZB1UwdPp54syOcNFOS
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+113
+Cipher   : RC2-40-CBC
+Class    : JohnConde\Encryption\Cipher\RC2\Rc240cbc
+IV       : /SmOj8DZxOc=
+Tag      :
+Encrypted: jV6iP1CvG94QKKsO8kzmZvlAgNM8GNSyp6gvjvwv3DKMeVYqJtsCWu7zmTSFjf6T+dICUJurPbzLmjlMRi6okYB4oAiJvX8+XuK370S8zWK+NMnKU45Z5Oo2jY0K1k+frqpWOoFlLrE=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+114
+Cipher   : RC2-64-CBC
+Class    : JohnConde\Encryption\Cipher\RC2\Rc264cbc
+IV       : b4WNXSXqsbY=
+Tag      :
+Encrypted: wLmSGpYf+fJ07AIMBKGNFg072RDquqr4i84R/RH1rvM3dkBUM1KHbzfwPtPEY0N30krpKs0PQVJUFX6mbLPLAQ6g/cnBf/QQ7IaO/HcnI/L5LejJ2xMkhDtm4En16Bx/lj8ptJ9Q//o=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+115
+Cipher   : RC2-CBC
+Class    : JohnConde\Encryption\Cipher\RC2\Rc2cbc
+IV       : v6rN6cJ4smM=
+Tag      :
+Encrypted: +lNneg7AZbmYaTGkc9zEDF6Y+GyXs6m7Wgt12dcyV4QD74GZZKlMolPoAmUPWSYRRQtdTpGZ8Xy5xNRRfE6n1nrjSqN6rsZEXsZw6T+7OPfqxzaUzG0QSj0yGk0oQghwimhN8TIV3hU=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+116
+Cipher   : RC2-CFB
+Class    : JohnConde\Encryption\Cipher\RC2\Rc2cfb
+IV       : ubQYF0s2YhU=
+Tag      :
+Encrypted: 5WliUyVKg/giAXKSSIROEvemmIRtjlpAouCq5VMU/CMPBDeiHZlqbpUygpzdVM7+/FsvQzsWhdhUzxiLLe9tMHkqW8shQWbLOG8CkrlbUFGZxXIysNu2Uf98jAqj7O/N
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+117
+Cipher   : RC2-ECB
+Class    : JohnConde\Encryption\Cipher\RC2\Rc2ecb
+IV       :
+Tag      :
+Encrypted: jc6YODmkXi0mcQAJ2+s/gLvFEp3d6yT6qaaHU452ycy5FBKzJ9ECXUxjZrBmM1G3i0VLgbHJhLNZRarpWZZLsonYDYY67xi8RKcXtvnYtrH4XqBmqsPGqoCzJ4FtZayr/ZdbM6RLwsU=
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+118
+Cipher   : RC2-OFB
+Class    : JohnConde\Encryption\Cipher\RC2\Rc2ofb
+IV       : mqnu5E0a118=
+Tag      :
+Encrypted: uJueZ6N0C/kwZKCSXx7laBePIMIRd6pV/4ENvMtGCJKkQoOQfWyH2F0ixxQDkEQWOrdeVyzXsf8zWySuSWlZJ5ZWPmPZYCDYCy0LS8nEVoxc1iux7bGx+5G/ParU/Dra
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+119
+Cipher   : SEED-CBC
+Class    : JohnConde\Encryption\Cipher\SEED\Seedcbc
+IV       : 1z0mXdKsmFLfewaqrTdQXA==
+Tag      :
+Encrypted: rXb0/g7I91Mud910+KQ6S4lDiarxSECIc6A/EIMP7iHRXPsUcHBoNp8IRGLoe7eraap99jpZr3n+mLtmAh5QhQviqejXrnVMJsR7S/7+BmI5ZVG+RFI8Lfahz24/Z+FZe9o7NN4nChP49X04d12lNg==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+120
+Cipher   : SEED-CFB
+Class    : JohnConde\Encryption\Cipher\SEED\Seedcfb
+IV       : H2COkxpcNcwG/EqqatrHkg==
+Tag      :
+Encrypted: HldJKXCRxOJ3uSm5VDm9Bozb864Q3QFuiGw+zT671PFmlmBXNnhYhnANmw8Ix4oeN+i0dodYO20/ic3S8vBFcrbXY3I0Cbfbs49shClRZkn2utME6M7foB7769ZTvoxB
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+121
+Cipher   : SEED-ECB
+Class    : JohnConde\Encryption\Cipher\SEED\Seedecb
+IV       :
+Tag      :
+Encrypted: w8oqE23sZO2qtCNitBcqQqxl2WFaBL/DDFcMFqcYhZt1SiKQpVrt0LoiI6BcfAGFXFLDzmwqWftlQGcovT26kQ8HTahy0KPwwH8X7KCKoTD+MRbqTwCdoXvShyCZyTWtZnUR7snb6QGkdYK7DPfQrA==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+122
+Cipher   : SEED-OFB
+Class    : JohnConde\Encryption\Cipher\SEED\Seedofb
+IV       : RqoROVDQw+85gnob8OgmJA==
+Tag      :
+Encrypted: YEcDYrVi+SXokxaXkAsvITzzfTPdObvVbPLeadRrdUaHLWIS7rRJ9NECWFgX80uZgrENB9jIqZro2TUby+yi8zVgnaVnhlpyy90GYsWXykMKyMClinHbEXvExG2NKsBF
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+123
+Cipher   : SM4-CBC
+Class    : JohnConde\Encryption\Cipher\SM4\Sm4cbc
+IV       : rBOVm+/xq3pnSkxA8aCIzw==
+Tag      :
+Encrypted: HuIQOIf1+jIdAlr2xgVQeS6mpSgXOtVDAr+wr16PXYJYa/YxT4OFG8VGBePGZXMMmAoPkGBl+IYuHFDvljWs1SwBXJ5b6Zfl+/tD1AV2ElegfmWv945ZcDGTHstTA8qtLZ+R1uJfd98Shs8URTGJqQ==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+124
+Cipher   : SM4-CFB
+Class    : JohnConde\Encryption\Cipher\SM4\Sm4cfb
+IV       : xeEW4g4bbWRzAgm0iz5GOA==
+Tag      :
+Encrypted: Jk8Gzz2KaWnGKeWo7V3pj7IaB/Flvn9lX3FHviVGLjC/R9iW+Om+WZXMF+clGKJInqOCotJTKND6YhLZVeeD+5hXipaFHFeeZrC3qa8bzF6i0mn0jhuAgM5qpRMdxhZr
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+125
+Cipher   : SM4-CTR
+Class    : JohnConde\Encryption\Cipher\SM4\Sm4ctr
+IV       : pFjqRTRf1A7DK8GDwEQ4dg==
+Tag      :
+Encrypted: Utie+erA7RWlCc3FSSMZz/0ffpW0Xbyk9syeuCJqKCNXwah/lPvlfSyNwqVgEAXxS+LtPTBkuVnKOaVzvD9LZwaZJ4a9W7L/dipVIXbSyQEx23eRlCaaW5tgWUJC9WcG
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+126
+Cipher   : SM4-ECB
+Class    : JohnConde\Encryption\Cipher\SM4\Sm4ecb
+IV       :
+Tag      :
+Encrypted: 7OxapwjdXNDbTKCTIXh8jHJogf/zisOeFLS/CJM2gb6HxbwNhl68tS6rFk+BDuaNaw2BtMEZuDJgT5V0UUdyi1wrCBwjQcCFrxgqbDFvrW8+vjbwQckRZnsvl4V77gZ9FnKKXgoR4dcCPjAF/pjh+A==
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+127
+Cipher   : SM4-OFB
+Class    : JohnConde\Encryption\Cipher\SM4\Sm4ofb
+IV       : xmf9rNiJICZaMyHWog2DJw==
+Tag      :
+Encrypted: PdSYUqy/0v+dOmJzdeG+qXRovImUiR0N/q3DjWJJPu1DpSvQ73u2UCthwc59csGjn1J31NJaDeQse0eQ0RIdCmAl4NFCebqWT8RdJZUYwgcYf2UTMcLg0q1G2wWhRaFn
+Decrypted: ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz0123456789~!@#$%&*()-=+{};:"<>,.?/'
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
