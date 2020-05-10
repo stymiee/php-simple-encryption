@@ -59,6 +59,7 @@ installed version of Openssl and ciphers supported by this library.
 **Total ciphers supported:** 127    
 **Default cipher:** AES-256-CBC
 
+|              |               |                   |               |               |
 |--------------|---------------|-------------------|---------------|---------------|
 | aes-128-cbc  | aria-128-cbc  | camellia-128-cbc  | des-ecb       | sm4-cbc       |
 | aes-128-ccm  | aria-128-ccm  | camellia-128-cfb  | des-ede-cbc   | sm4-cfb       |
