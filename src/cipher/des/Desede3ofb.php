@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption\Cipher\DES;
+namespace Encryption\Cipher\DES;
 
 
-use JohnConde\Encryption\ACipherWithInitializationVector;
-use JohnConde\Encryption\decrypt;
-use JohnConde\Encryption\encryptWithPadding;
+use Encryption\ACipherWithInitializationVector;
+use Encryption\decrypt;
+use Encryption\encryptWithPadding;
 
 class Desede3ofb extends ACipherWithInitializationVector
 {

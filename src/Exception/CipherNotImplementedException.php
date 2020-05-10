@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption\Exception;
+namespace Encryption\Exception;
 
 
 class CipherNotImplementedException extends EncryptionException

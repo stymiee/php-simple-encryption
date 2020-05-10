@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption;
+namespace Encryption;
 
 
 interface IEncryptWithoutInitializationVector

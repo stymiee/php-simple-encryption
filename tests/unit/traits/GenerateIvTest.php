@@ -2,8 +2,8 @@
 
 namespace traits;
 
-use JohnConde\Encryption\Cipher\AES\Aes256cbc;
-use JohnConde\Encryption\generateIv;
+use Encryption\Cipher\AES\Aes256cbc;
+use Encryption\generateIv;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

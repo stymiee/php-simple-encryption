@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption\Cipher\CAST5;
+namespace Encryption\Cipher\CAST5;
 
 
-use JohnConde\Encryption\ACipherWithInitializationVector;
-use JohnConde\Encryption\decrypt;
-use JohnConde\Encryption\encryptWithPadding;
+use Encryption\ACipherWithInitializationVector;
+use Encryption\decrypt;
+use Encryption\encryptWithPadding;
 
 class Cast5cbc extends ACipherWithInitializationVector
 {

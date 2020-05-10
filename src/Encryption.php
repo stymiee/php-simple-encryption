@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption;
+namespace Encryption;
 
-use JohnConde\Encryption\Exception\CipherNotImplementedException;
-use JohnConde\Encryption\Exception\InvalidCipherException;
+use Encryption\Exception\CipherNotImplementedException;
+use Encryption\Exception\InvalidCipherException;
 
 class Encryption
 {
@@ -13,13 +13,12 @@ class Encryption
 
     public static function getEncryptionObject(?string $cipher = null): ICipher
     {
-        $cipher ??= static::DEFAULT_CIPHER;
-        $cipher = strtolower($cipher);
+        $cipher = strtolower($cipher ?: static::DEFAULT_CIPHER);
         $availableCiphers = static::getCipherMethods();
         if (!in_array($cipher, $availableCiphers, true)) {
-            throw new InvalidCipherException('Invalid cipher selected');
+            $message = sprintf('Invalid cipher selected [%s]', $cipher);
+            throw new InvalidCipherException($message);
         }
-
         return static::createEncryptionObject($cipher);
     }
 
@@ -30,14 +29,13 @@ class Encryption
             $message = sprintf('Cipher [%s] has not been implemented yet', $cipher);
             throw new CipherNotImplementedException($message);
         }
-
         return new $className();
     }
 
     protected static function createClassName(string $cipher): string {
         $crypto = strtoupper(explode('-', $cipher)[0]);
         return sprintf('%s\%s\%s',
-           'JohnConde\Encryption\Cipher',
+           'Encryption\Cipher',
            $crypto,
            str_replace('-', '', ucwords($cipher))
         );

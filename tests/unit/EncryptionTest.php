@@ -1,10 +1,10 @@
 <?php
 
-use JohnConde\Encryption\Cipher\AES\Aes256cbc;
-use JohnConde\Encryption\Cipher\DES\Descbc;
-use JohnConde\Encryption\Encryption;
-use JohnConde\Encryption\Exception\CipherNotImplementedException;
-use JohnConde\Encryption\Exception\InvalidCipherException;
+use Encryption\Cipher\AES\Aes256cbc;
+use Encryption\Cipher\DES\Descbc;
+use Encryption\Encryption;
+use Encryption\Exception\CipherNotImplementedException;
+use Encryption\Exception\InvalidCipherException;
 use PHPUnit\Framework\TestCase;
 
 class EncryptionTest extends TestCase

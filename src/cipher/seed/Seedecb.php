@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption\Cipher\SEED;
+namespace Encryption\Cipher\SEED;
 
 
-use JohnConde\Encryption\ACipherNoInitializationVector;
-use JohnConde\Encryption\decryptNoIV;
-use JohnConde\Encryption\encryptWithPaddingNoIV;
+use Encryption\ACipherNoInitializationVector;
+use Encryption\decryptNoIV;
+use Encryption\encryptWithPaddingNoIV;
 
 class Seedecb extends ACipherNoInitializationVector
 {

@@ -2,9 +2,9 @@
 
 namespace ciphers;
 
-use JohnConde\Encryption\ACipher;
-use JohnConde\Encryption\Cipher\AES\Aes256cbc;
-use JohnConde\Encryption\Encryption;
+use Encryption\ACipher;
+use Encryption\Cipher\AES\Aes256cbc;
+use Encryption\Encryption;
 use PHPUnit\Framework\TestCase;
 
 class AbstractCipherTest extends TestCase

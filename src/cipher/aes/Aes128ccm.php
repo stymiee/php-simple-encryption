@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption\Cipher\AES;
+namespace Encryption\Cipher\AES;
 
 
-use JohnConde\Encryption\ACipherAeadMode;
-use JohnConde\Encryption\decryptAeadMode;
-use JohnConde\Encryption\encryptWithPaddingAeadMode;
+use Encryption\ACipherAeadMode;
+use Encryption\decryptAeadMode;
+use Encryption\encryptWithPaddingAeadMode;
 
 class Aes128ccm extends ACipherAeadMode
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption;
+namespace Encryption;
 
 
 trait generateIv
@@ -27,7 +27,7 @@ trait generateIv
     public function generateIv(bool $allowLessSecureIv = false): string
     {
         $success = false;
-        $random = openssl_random_pseudo_bytes(openssl_cipher_iv_length(static::CIPHER));
+        $random = openssl_random_pseudo_bytes(openssl_cipher_iv_length(static::CIPHER), $success);
         if (!$success) {
             try {
                 $random = random_bytes(static::IV_LENGTH);

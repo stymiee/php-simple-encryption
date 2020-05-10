@@ -2,7 +2,7 @@
 
 namespace traits;
 
-use JohnConde\Encryption\Cipher\AES\Aes256ccm;
+use Encryption\Cipher\AES\Aes256ccm;
 use PHPUnit\Framework\TestCase;
 
 class DecryptAeadModeTest extends TestCase

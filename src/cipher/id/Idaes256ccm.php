@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption\Cipher\ID;
+namespace Encryption\Cipher\ID;
 
 
-use JohnConde\Encryption\ACipherAeadMode;
-use JohnConde\Encryption\decryptAeadMode;
-use JohnConde\Encryption\encryptWithPaddingAeadMode;
+use Encryption\ACipherAeadMode;
+use Encryption\decryptAeadMode;
+use Encryption\encryptWithPaddingAeadMode;
 
 class Idaes256ccm extends ACipherAeadMode
 {

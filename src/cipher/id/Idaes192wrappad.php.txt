@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption\Cipher\ID;
+namespace Encryption\Cipher\ID;
 
 
-use JohnConde\Encryption\ACipher;
-use JohnConde\Encryption\decrypt;
-use JohnConde\Encryption\encryptWithPadding;
+use Encryption\ACipher;
+use Encryption\decrypt;
+use Encryption\encryptWithPadding;
 
 class Idaes192wrappad extends ACipher
 {

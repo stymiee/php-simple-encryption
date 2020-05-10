@@ -2,7 +2,7 @@
 
 namespace traits;
 
-use JohnConde\Encryption\Cipher\AES\Aes256ecb;
+use Encryption\Cipher\AES\Aes256ecb;
 use PHPUnit\Framework\TestCase;
 
 class DecryptNoIvTest extends TestCase

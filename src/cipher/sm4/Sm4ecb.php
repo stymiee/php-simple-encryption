@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption\Cipher\SM4;
+namespace Encryption\Cipher\SM4;
 
 
-use JohnConde\Encryption\ACipherNoInitializationVector;
-use JohnConde\Encryption\decryptNoIV;
-use JohnConde\Encryption\encryptWithPaddingNoIV;
+use Encryption\ACipherNoInitializationVector;
+use Encryption\decryptNoIV;
+use Encryption\encryptWithPaddingNoIV;
 
 class Sm4ecb extends ACipherNoInitializationVector
 {

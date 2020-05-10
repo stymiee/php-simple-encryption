@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JohnConde\Encryption;
+namespace Encryption;
 
 
 abstract class ACipherAeadMode extends ACipher implements ICipher, IEncryptAeadMode
