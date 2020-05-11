@@ -35,9 +35,9 @@ class Encryption
     protected static function createClassName(string $cipher): string {
         $crypto = strtoupper(explode('-', $cipher)[0]);
         return sprintf('%s\%s\%s',
-           'Encryption\Cipher',
-           $crypto,
-           str_replace('-', '', ucwords($cipher))
+            'Encryption\Cipher',
+            $crypto,
+            str_replace('-', '', ucwords($cipher))
         );
     }
 

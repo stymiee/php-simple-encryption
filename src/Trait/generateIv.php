@@ -31,12 +31,10 @@ trait generateIv
         if (!$success) {
             try {
                 $random = random_bytes(static::IV_LENGTH);
-            }
-            catch (Exception $e) {
+            } catch (Exception $e) {
                 if ($allowLessSecureIv) {
                     $random = $this->generateInsecureIv(static::IV_LENGTH);
-                }
-                else {
+                } else {
                     throw new RuntimeException('Unable to generate initialization vector (IV)');
                 }
             }
