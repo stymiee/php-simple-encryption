@@ -2,7 +2,7 @@
 
 namespace ciphers;
 
-use Encryption\ACipher;
+use Encryption\Cipher\ACipher;
 use Encryption\Cipher\AES\Aes256cbc;
 use Encryption\Encryption;
 use PHPUnit\Framework\TestCase;

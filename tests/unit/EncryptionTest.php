@@ -3,8 +3,8 @@
 use Encryption\Cipher\AES\Aes256cbc;
 use Encryption\Cipher\DES\Descbc;
 use Encryption\Encryption;
-use Encryption\Exception\CipherNotImplementedException;
-use Encryption\Exception\InvalidCipherException;
+use Encryption\Exceptions\CipherNotImplementedException;
+use Encryption\Exceptions\InvalidCipherException;
 use PHPUnit\Framework\TestCase;
 
 class EncryptionTest extends TestCase

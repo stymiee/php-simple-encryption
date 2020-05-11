@@ -3,7 +3,7 @@
 namespace traits;
 
 use Encryption\Cipher\AES\Aes256cbc;
-use Encryption\generateIv;
+use Encryption\Traits\generateIv;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 

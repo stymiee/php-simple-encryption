@@ -27,11 +27,7 @@
     "autoload": {
         "psr-4": {
             "Encryption\\": [
-                "src/",
-                "src/Cipher/",
-                "src/Exception/",
-                "src/Interface/",
-                "src/Trait/"
+                "src/Encryption/"
             ]
         }
     }
