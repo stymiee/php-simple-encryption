@@ -1,6 +1,6 @@
 <?php
 
-use Encryption\Cipher\AES\Aes256ccm;
+use Encryption\Cipher\AES\Aes128ccm;
 use Encryption\Cipher\DES\Descbc;
 use Encryption\Encryption;
 use Encryption\Exceptions\CipherNotImplementedException;
@@ -24,7 +24,7 @@ class EncryptionTest extends TestCase
     public function testCipherNotImplementedException(): void
     {
         $this->expectException(CipherNotImplementedException::class);
-        $encryptionObject = Encryption::getEncryptionObject('ID-AES128-WRAP-PAD');
+        $encryptionObject = Encryption::getEncryptionObject('DES-EDE3');
     }
 
     public function testCreateClassName(): void
@@ -33,7 +33,7 @@ class EncryptionTest extends TestCase
         $createClassName = $reflectedEncryptionClass->getMethod('createClassName');
         $createClassName->setAccessible(true);
 
-        $this->assertEquals(Aes256ccm::class, $createClassName->invokeArgs($reflectedEncryptionClass, ['aes-128-ccm']));
+        $this->assertEquals(Aes128ccm::class, $createClassName->invokeArgs($reflectedEncryptionClass, ['aes-128-ccm']));
         $this->assertEquals(Descbc::class, $createClassName->invokeArgs($reflectedEncryptionClass, ['des-cbc']));
     }
 
