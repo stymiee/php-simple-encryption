@@ -1,6 +1,6 @@
 <?php
 
-use Encryption\Cipher\AES\Aes256cbc;
+use Encryption\Cipher\AES\Aes256ccm;
 use Encryption\Cipher\DES\Descbc;
 use Encryption\Encryption;
 use Encryption\Exceptions\CipherNotImplementedException;
@@ -24,7 +24,7 @@ class EncryptionTest extends TestCase
     public function testCipherNotImplementedException(): void
     {
         $this->expectException(CipherNotImplementedException::class);
-        $encryptionObject = Encryption::getEncryptionObject('AES-128-OCB');
+        $encryptionObject = Encryption::getEncryptionObject('ID-AES128-WRAP-PAD');
     }
 
     public function testCreateClassName(): void
@@ -33,7 +33,7 @@ class EncryptionTest extends TestCase
         $createClassName = $reflectedEncryptionClass->getMethod('createClassName');
         $createClassName->setAccessible(true);
 
-        $this->assertEquals(Aes256cbc::class, $createClassName->invokeArgs($reflectedEncryptionClass, ['aes-256-cbc']));
+        $this->assertEquals(Aes256ccm::class, $createClassName->invokeArgs($reflectedEncryptionClass, ['aes-128-ccm']));
         $this->assertEquals(Descbc::class, $createClassName->invokeArgs($reflectedEncryptionClass, ['des-cbc']));
     }
 
@@ -41,7 +41,7 @@ class EncryptionTest extends TestCase
     {
         $availableCiphers = Encryption::listAvailableCiphers();
         $this->assertIsArray($availableCiphers);
-        $this->assertContains('aes-128-cbc', $availableCiphers);
-        $this->assertContains('sm4-ofb', $availableCiphers);
+        $this->assertContains('aes-128-ccm', $availableCiphers);
+        $this->assertContains('seed-ecb', $availableCiphers);
     }
 }
