@@ -1,3 +1,10 @@
+[![Latest Stable Version](https://poser.pugx.org/stymiee/php-simple-encryption/v/stable.svg)](https://packagist.org/packages/stymiee/php-simple-encryption)
+[![Total Downloads](https://poser.pugx.org/stymiee/php-simple-encryption/downloads)](https://packagist.org/packages/stymiee/php-simple-encryption)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/stymiee/php-simple-encryption/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/stymiee/php-simple-encryption/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/stymiee/php-simple-encryption/badges/build.png?b=master)](https://scrutinizer-ci.com/g/stymiee/php-simple-encryption/build-status/master)
+[![Build Status](https://scrutinizer-ci.com/g/stymiee/php-simple-encryption/badges/build.png?b=master)](https://scrutinizer-ci.com/g/stymiee/php-simple-encryption/build-status/master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/acfb3fdd72012a3f7cd6/maintainability)](https://codeclimate.com/github/stymiee/php-simple-encryption/maintainability)
+[![License](https://poser.pugx.org/stymiee/php-simple-encryption/license)](https://packagist.org/packages/stymiee/php-simple-encryption)
 # PHP Simple Encryption (php-simple-encryption)
 
 A PHP library that makes encryption and decryption of text easy.
