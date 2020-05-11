@@ -3,20 +3,20 @@
 namespace traits;
 
 
-use Encryption\Cipher\ARIA\Aria128ccm;
+use Encryption\Cipher\ID\Idaes128ccm;
 use PHPUnit\Framework\TestCase;
 
 class DecryptAeadModeTest extends TestCase
 {
     public function testDecrypt()
     {
-        $encryptionObject = new Aria128ccm();
+        $encryptionObject = new Idaes128ccm();
 
-        $iv = base64_decode('IrdR5KokpqpFyaKv');
-        $tag = base64_decode('XpGvTrujY59NLOklwrYD2w==');
+        $iv = base64_decode('rtfC7GSi74WuYDc2');
+        $tag = base64_decode('guLJc6EUt/IvnqDkf+/Yzg==');
         $key = 'secretkey';
         $plainText = 'The quick brown fox jumps over the lazy dog';
-        $encryptedText = '/OlLRKtZdjtn7nA+zcZ5bDtH8NPepAK1lISpSWRZZwNLPD9jDrHM6/vzp7e/NuSf';
+        $encryptedText = 'Q+r+mRu1frKinwp3S/WTq9A73320FrX0zR3ZigSiFZETZe7odRphosL52k0xbt5b';
         $this->assertEquals($plainText, $encryptionObject->decrypt($encryptedText, $key, $iv, $tag));
     }
 }
