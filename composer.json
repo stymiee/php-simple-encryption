@@ -30,5 +30,8 @@
                 "src/Encryption/"
             ]
         }
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
