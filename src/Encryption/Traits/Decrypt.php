@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace Encryption\Traits;
 
-
-trait decrypt
+trait Decrypt
 {
     public function decrypt(string $encryptedText, string $key, string $iv): string
     {

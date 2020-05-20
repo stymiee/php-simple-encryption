@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace Encryption\Traits;
 
-
-trait encryptWithoutPadding
+trait EncryptWithoutPadding
 {
     public function encrypt(string $plainText, string $key, string $iv): string
     {

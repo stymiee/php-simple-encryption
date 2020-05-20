@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Encryption\Cipher;
 
-
 use Encryption\Interfaces\ICipher;
 use Encryption\Interfaces\IEncryptWithoutInitializationVector;
 
@@ -14,4 +13,3 @@ abstract class ACipherNoInitializationVector extends ACipher implements ICipher,
 
     abstract public function decrypt(string $encryptedText, string $key): string;
 }
-

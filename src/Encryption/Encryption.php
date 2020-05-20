@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Encryption;
 
-
 use Encryption\Cipher\ACipher;
 use Encryption\Exceptions\CipherNotImplementedException;
 use Encryption\Exceptions\InvalidCipherException;
@@ -24,6 +23,11 @@ class Encryption
         return static::createEncryptionObject($cipher);
     }
 
+    public static function getCipherMethods(): array
+    {
+        return array_unique(array_map('strtolower', openssl_get_cipher_methods()));
+    }
+
     protected static function createEncryptionObject(string $cipher): ACipher
     {
         $className = static::createClassName($cipher);
@@ -34,18 +38,15 @@ class Encryption
         return new $className();
     }
 
-    protected static function createClassName(string $cipher): string {
+    protected static function createClassName(string $cipher): string
+    {
         $crypto = strtoupper(explode('-', $cipher)[0]);
-        return sprintf('%s\%s\%s',
+        return sprintf(
+            '%s\%s\%s',
             'Encryption\Cipher',
             $crypto,
             str_replace('-', '', ucwords($cipher))
         );
-    }
-
-    public static function getCipherMethods(): array
-    {
-        return array_unique(array_map('strtolower', openssl_get_cipher_methods()));
     }
 
     public static function listAvailableCiphers(): array

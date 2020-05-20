@@ -3,7 +3,7 @@
 namespace traits;
 
 use Encryption\Cipher\AES\Aes256cbc;
-use Encryption\Traits\generateIv;
+use Encryption\Traits\GenerateIv;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
@@ -11,7 +11,7 @@ class GenerateIvTest extends TestCase
 {
     public function testGenerateInsecureIv()
     {
-        $mockTrait = $this->getMockForTrait(generateIv::class);
+        $mockTrait = $this->getMockForTrait(GenerateIv::class);
         $reflectedTrait = new ReflectionClass($mockTrait);
         $generateInsecureIv = $reflectedTrait->getMethod('generateInsecureIv');
         $generateInsecureIv->setAccessible(true);
