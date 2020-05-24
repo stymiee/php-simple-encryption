@@ -28,6 +28,10 @@ Here is a minimal example of a `composer.json` file that just defines a dependen
 
 ## Basic Usage
 
+To get a more detailed introduction to this library, visit the 
+[PHP Simple Encryption tutorial](https://www.johnconde.net/blog/php-simple-encryption/?utm_source=github&utm_medium=link&utm_campaign=php-encryption)
+on my blog.
+
     require('./vendor/autoload.php');
         
     use Encryption\Encryption;
