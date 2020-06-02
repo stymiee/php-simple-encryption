@@ -10,6 +10,15 @@ abstract class ACipher
     public const IV_LENGTH = 0;
     public const CIPHER = 'abstract';
 
+    public function __debugInfo(): array
+    {
+        return [
+            'blockSize' => static::BLOCK_SIZE,
+            'cipher'    => static::CIPHER,
+            'ivLength'  => static::IV_LENGTH
+        ];
+    }
+
     public function getName(): string
     {
         return static::CIPHER;
