@@ -1,4 +1,4 @@
-<?php
+<?php /** @noinspection CryptographicallySecureRandomnessInspection */
 
 declare(strict_types=1);
 
@@ -9,6 +9,7 @@ use RuntimeException;
 
 trait GenerateIv
 {
+    /** @noinspection CryptographicallySecureRandomnessInspection */
     public function generateIv(bool $allowLessSecureIv = false): string
     {
         $success = false;
@@ -39,7 +40,7 @@ trait GenerateIv
         );
         $random = '';
         for ($i = 0; $i < $length; $i++) {
-            $random .= $permitted_chars[mt_rand(0, ($length) - 1)];
+            $random .= $permitted_chars[random_int(0, ($length) - 1)];
         }
         return $random;
     }
