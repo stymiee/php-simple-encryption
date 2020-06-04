@@ -38,10 +38,14 @@ trait GenerateIv
                 str_split('~!@#$%&*()-=+{};:"<>,.?/\'')
             )
         );
-        $random = '';
-        for ($i = 0; $i < $length; $i++) {
-            $random .= $permitted_chars[random_int(0, ($length) - 1)];
+        try {
+            $random = '';
+            for ($i = 0; $i < $length; $i++) {
+                $random .= $permitted_chars[random_int(0, ($length) - 1)];
+            }
+            return $random;
+        } catch (Exception $e) {
+            throw new RuntimeException('Unable to generate insecure initialization vector (IV)');
         }
-        return $random;
     }
 }
