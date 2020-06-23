@@ -5,6 +5,7 @@ use Encryption\Cipher\DES\Descbc;
 use Encryption\Encryption;
 use Encryption\Exceptions\CipherNotImplementedException;
 use Encryption\Exceptions\InvalidCipherException;
+use Encryption\Exceptions\InvalidVersionException;
 use PHPUnit\Framework\TestCase;
 
 class EncryptionTest extends TestCase
@@ -43,5 +44,21 @@ class EncryptionTest extends TestCase
         $this->assertIsArray($availableCiphers);
         $this->assertContains('aes-128-ccm', $availableCiphers);
         $this->assertContains('seed-ecb', $availableCiphers);
+    }
+
+    public function testGetDefaultCipherByVersionDefaultParameter(): void
+    {
+        $this->assertEquals('AES-256-CBC', Encryption::getDefaultCipherByVersion());
+    }
+
+    public function testGetDefaultCipherByVersion1(): void
+    {
+        $this->assertEquals('AES-256-CBC', Encryption::getDefaultCipherByVersion());
+    }
+
+    public function testGetDefaultCipherByVersionInvalidVersion(): void
+    {
+        $this->expectException(InvalidVersionException::class);
+        Encryption::getDefaultCipherByVersion(2);
     }
 }

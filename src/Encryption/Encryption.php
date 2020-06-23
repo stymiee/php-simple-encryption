@@ -7,10 +7,13 @@ namespace Encryption;
 use Encryption\Cipher\ACipher;
 use Encryption\Exceptions\CipherNotImplementedException;
 use Encryption\Exceptions\InvalidCipherException;
+use Encryption\Exceptions\InvalidVersionException;
 
 class Encryption
 {
     public const DEFAULT_CIPHER = 'AES-256-CBC';
+
+    public const VERSION = 1;
 
     public static function getEncryptionObject(?string $cipher = null): ACipher
     {
@@ -59,5 +62,15 @@ class Encryption
             }
         }
         return $availableCiphers;
+    }
+
+    public static function getDefaultCipherByVersion(int $version = self::VERSION): string
+    {
+        switch ($version) {
+            case 1:
+                return self::DEFAULT_CIPHER;
+            default:
+                throw new InvalidVersionException(sprintf('Invalid version: [%s]', $version));
+        }
     }
 }

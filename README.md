@@ -67,7 +67,8 @@ An exception may be thrown if:
 ## Supported Ciphers
 
 The PHP Simple Encryption library currently defaults to `AES-256-CBC`. This may change in future versions and will 
-result in a major version bump when this occurs.
+result in a major version bump when this occurs. You can check the version of your library by calling
+`Encryption::VERSION`. This library is currently on version "1".
  
 To determine what cipher you are using you can call the `getName()` method on your encryption object.
 
@@ -79,7 +80,7 @@ to receive an array of available ciphers. This list is an intersection of availa
 installed version of Openssl and ciphers supported by this library.    
 
 **Total ciphers supported:** 127    
-**Default cipher:** AES-256-CBC
+**Default cipher:** AES-256-CBC (version 1)
 
 | AES          | Aria          | Blowfish/Camellia | Cast5/DES         | Idea/RC2/SeedSM4 |
 |--------------|---------------| ------------------|-------------------|------------------|
