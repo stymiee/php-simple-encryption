@@ -8,7 +8,7 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
-class Sm4cbc extends ACipherWithInitializationVector
+final class Sm4cbc extends ACipherWithInitializationVector
 {
     use Decrypt;
     use EncryptWithPadding;

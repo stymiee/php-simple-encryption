@@ -8,7 +8,7 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
-class Rc264cbc extends ACipherWithInitializationVector
+final class Rc264cbc extends ACipherWithInitializationVector
 {
     use Decrypt;
     use EncryptWithPadding;

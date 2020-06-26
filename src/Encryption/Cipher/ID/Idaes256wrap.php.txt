@@ -9,7 +9,7 @@ use Encryption\ACipher;
 use Encryption\decrypt;
 use Encryption\encryptWithPadding;
 
-class Idaes256wrap extends ACipher
+final class Idaes256wrap extends ACipher
 {
     public const BLOCK_SIZE = 8;
     public const IV_LENGTH = 8;

@@ -8,7 +8,7 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
-class Descfb extends ACipherWithInitializationVector
+final class Descfb extends ACipherWithInitializationVector
 {
     use Decrypt;
     use EncryptWithPadding;

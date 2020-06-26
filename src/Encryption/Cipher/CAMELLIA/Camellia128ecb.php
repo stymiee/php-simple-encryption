@@ -8,7 +8,7 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
-class Camellia128ecb extends ACipherNoInitializationVector
+final class Camellia128ecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;
     use EncryptWithPaddingNoIV;

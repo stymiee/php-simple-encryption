@@ -8,7 +8,7 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
-class Cast5ofb extends ACipherWithInitializationVector
+final class Cast5ofb extends ACipherWithInitializationVector
 {
     use Decrypt;
     use EncryptWithPadding;

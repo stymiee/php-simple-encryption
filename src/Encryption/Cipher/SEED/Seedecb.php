@@ -8,7 +8,7 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
-class Seedecb extends ACipherNoInitializationVector
+final class Seedecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;
     use EncryptWithPaddingNoIV;

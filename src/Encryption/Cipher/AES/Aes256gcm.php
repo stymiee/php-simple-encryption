@@ -8,7 +8,7 @@ use Encryption\Cipher\ACipherAeadMode;
 use Encryption\Traits\DecryptAeadMode;
 use Encryption\Traits\EncryptWithPaddingAeadMode;
 
-class Aes256gcm extends ACipherAeadMode
+final class Aes256gcm extends ACipherAeadMode
 {
     use DecryptAeadMode;
     use EncryptWithPaddingAeadMode;

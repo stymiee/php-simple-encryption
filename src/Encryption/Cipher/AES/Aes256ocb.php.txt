@@ -9,7 +9,7 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\decrypt;
 use Encryption\Traits\encryptWithPadding;
 
-class Aes256ocb extends ACipherWithInitializationVector
+final class Aes256ocb extends ACipherWithInitializationVector
 {
     public const BLOCK_SIZE = 8;
     public const IV_LENGTH = 12;

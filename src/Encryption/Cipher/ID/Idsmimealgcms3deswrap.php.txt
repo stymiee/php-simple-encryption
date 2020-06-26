@@ -9,7 +9,7 @@ use Encryption\ACipher;
 use Encryption\decrypt;
 use Encryption\encryptWithPadding;
 
-class Idsmimealgcms3deswrap extends ACipher
+final class Idsmimealgcms3deswrap extends ACipher
 {
     public const BLOCK_SIZE = 8;
     public const IV_LENGTH = 0;

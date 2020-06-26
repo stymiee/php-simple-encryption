@@ -9,7 +9,7 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\decrypt;
 use Encryption\Traits\encryptWithPadding;
 
-class Aes128ocb extends ACipher
+final class Aes128ocb extends ACipher
 {
     public const BLOCK_SIZE = 8;
     public const IV_LENGTH = 12;

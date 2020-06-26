@@ -8,7 +8,7 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
-class Desxcbc extends ACipherWithInitializationVector
+final class Desxcbc extends ACipherWithInitializationVector
 {
     use Decrypt;
     use EncryptWithPadding;
