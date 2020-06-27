@@ -48,6 +48,7 @@ on my blog.
         printf('Cipher   : %s%s', $encryption->getName(), PHP_EOL);
         printf('Encrypted: %s%s', $encryptedText, PHP_EOL);
         printf('Decrypted: %s%s', $decryptedText, PHP_EOL);
+        printf('Version  : %s%s', Encryption::VERSION, PHP_EOL);
     }
     catch (EncryptionException) {
         echo $e;
@@ -58,6 +59,7 @@ Outputs
     Cipher   : AES-256-CBC
     Encrypted: lierDqV4Qo3Cm87YU01K+YnQsDGrFsYypjHJVZaagqfLFg7xb2T7b9qfqb4NcoIGcTzqvQbOx72AVgbuRFxqgg==
     Decrypted: The quick brown fox jumps over the lazy dog
+    Version  : 1
 
 An exception may be thrown if:
 - An invalid/unsupported cipher is attempted to be used (`Encryption\Exception\InvalidCipherException`)
