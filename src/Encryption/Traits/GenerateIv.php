@@ -40,7 +40,7 @@ trait GenerateIv
         try {
             $random = '';
             for ($i = 0; $i < $length; $i++) {
-                $random .= $permitted_chars[random_int(0, ($length) - 1)];
+                $random .= $permitted_chars[random_int(0, $length - 1)];
             }
             return $random;
         } catch (Exception $e) {

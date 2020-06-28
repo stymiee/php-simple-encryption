@@ -14,8 +14,8 @@ abstract class ACipher
     {
         return [
             'blockSize' => static::BLOCK_SIZE,
-            'cipher'    => static::CIPHER,
-            'ivLength'  => static::IV_LENGTH
+            'cipher' => static::CIPHER,
+            'ivLength' => static::IV_LENGTH,
         ];
     }
 

@@ -31,16 +31,6 @@ class Encryption
         return array_unique(array_map('strtolower', openssl_get_cipher_methods()));
     }
 
-    protected static function createEncryptionObject(string $cipher): ACipher
-    {
-        $className = static::createClassName($cipher);
-        if (!class_exists($className)) {
-            $message = sprintf('Cipher [%s] has not been implemented yet', $cipher);
-            throw new CipherNotImplementedException($message);
-        }
-        return new $className();
-    }
-
     protected static function createClassName(string $cipher): string
     {
         $crypto = strtoupper(explode('-', $cipher)[0]);
@@ -50,6 +40,16 @@ class Encryption
             $crypto,
             str_replace('-', '', ucwords($cipher))
         );
+    }
+
+    protected static function createEncryptionObject(string $cipher): ACipher
+    {
+        $className = static::createClassName($cipher);
+        if (!class_exists($className)) {
+            $message = sprintf('Cipher [%s] has not been implemented yet', $cipher);
+            throw new CipherNotImplementedException($message);
+        }
+        return new $className();
     }
 
     public static function listAvailableCiphers(): array

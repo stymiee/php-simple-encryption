@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Encryption\Exceptions;
 
-class CipherNotImplementedException extends EncryptionException
+final class CipherNotImplementedException extends EncryptionException
 {
-
 }
