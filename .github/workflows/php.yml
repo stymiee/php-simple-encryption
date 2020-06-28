@@ -26,8 +26,11 @@ jobs:
     - name: Run test suite
       run: composer run-script test
 
-    - name: Run PHP Code Sniffer
-      run: composer run-script phpcs
-
-    - name: Run PHP Mess Detecter
-      run: composer run-script phpmd
+#    - name: Run PHP Code Sniffer
+#      run: composer run-script phpcs
+#
+#    - name: Run PHP Mess Detecter
+#      run: composer run-script phpmd
+#
+#    - name: Run PHP Insights
+#      run: composer run-script insights
