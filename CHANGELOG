@@ -1,8 +1,15 @@
+VERSION 1.0.2 - 2020-07-15
+-----------------------------------------------------------------------------------------------------------------------
+Added VERSION to assist with determining which default cipher was/is being used
+Made cipher classes final as they should never be extended
+Made exception classes final as they should never be extended
+
+
 VERSION 1.0.1 - 2020-06-14
 -----------------------------------------------------------------------------------------------------------------------
 PSR-12 compliant
 var_dump() on the encryption object will now provide the cipher name, block_size, and IV length (could be zero)
-Fallback IV generator uses a more stronger crypto friendly random number function
+Fallback IV generator uses a stronger crypto friendly random number function
 Updated HELP and support documentation
 Added Github actions support in composer.json file (i.e. composer scripts)
 
