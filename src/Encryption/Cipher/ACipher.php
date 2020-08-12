@@ -19,11 +19,23 @@ abstract class ACipher
         ];
     }
 
+    /**
+     * Fetch the name of the cipher being used.
+     *
+     * @return string
+     */
     public function getName(): string
     {
         return static::CIPHER;
     }
 
+    /**
+     * Returns text with null padding appended to meet the specified block size.
+     *
+     * @param string $plainText
+     * @param int $blockSize
+     * @return string
+     */
     protected function getPaddedText(string $plainText, int $blockSize): string
     {
         $stringLength = strlen($plainText);
