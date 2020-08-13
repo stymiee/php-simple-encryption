@@ -8,6 +8,10 @@ use Encryption\Interfaces\ICipher;
 use Encryption\Interfaces\IEncryptAeadMode;
 use Encryption\Traits\GenerateIv;
 
+/**
+ * Class ACipherAeadMode
+ * @package Encryption\Cipher
+ */
 abstract class ACipherAeadMode extends ACipher implements ICipher, IEncryptAeadMode
 {
     use GenerateIv;

@@ -8,6 +8,10 @@ use Encryption\Interfaces\ICipher;
 use Encryption\Interfaces\IEncryptWithInitializationVector;
 use Encryption\Traits\GenerateIv;
 
+/**
+ * Class ACipherWithInitializationVector
+ * @package Encryption\Cipher
+ */
 abstract class ACipherWithInitializationVector extends ACipher implements ICipher, IEncryptWithInitializationVector
 {
     use GenerateIv;

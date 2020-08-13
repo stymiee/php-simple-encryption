@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Encryption\Cipher;
 
+/**
+ * Class ACipher
+ * @package Encryption\Cipher
+ */
 abstract class ACipher
 {
     public const BLOCK_SIZE = 0;

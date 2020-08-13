@@ -9,6 +9,10 @@ use Encryption\Exceptions\CipherNotImplementedException;
 use Encryption\Exceptions\InvalidCipherException;
 use Encryption\Exceptions\InvalidVersionException;
 
+/**
+ * Class Encryption
+ * @package Encryption
+ */
 class Encryption
 {
     public const DEFAULT_CIPHER = 'AES-256-CBC';
