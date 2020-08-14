@@ -7,6 +7,10 @@ namespace Encryption\Traits;
 use Exception;
 use RuntimeException;
 
+/**
+ * Trait GenerateIv
+ * @package Encryption\Traits
+ */
 trait GenerateIv
 {
     public function generateIv(bool $allowLessSecureIv = false): string

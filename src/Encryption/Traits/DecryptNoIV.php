@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Encryption\Traits;
 
+/**
+ * Trait DecryptNoIV
+ * @package Encryption\Traits
+ */
 trait DecryptNoIV
 {
     public function decrypt(string $encryptedText, string $key): string

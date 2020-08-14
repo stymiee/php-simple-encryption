@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Encryption\Traits;
 
+/**
+ * Trait EncryptWithPadding
+ * @package Encryption\Traits
+ */
 trait EncryptWithPadding
 {
     public function encrypt(string $plainText, string $key, string $iv): string
