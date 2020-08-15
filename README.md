@@ -81,40 +81,40 @@ To get a list of ciphers supported by your system *and* this library you can cal
 to receive an array of available ciphers. This list is an intersection of available ciphers from your system's
 installed version of Openssl and ciphers supported by this library.    
 
-**Total ciphers supported:** 127    
+**Total ciphers supported:** 130    
 **Default cipher:** AES-256-CBC (version 1)
 
-| AES          | Aria          | Blowfish/Camellia | Cast5/DES         | Idea/RC2/SeedSM4 |
-|--------------|---------------| ------------------|-------------------|------------------|
-| aes-128-cbc  | aria-128-cbc  | bf-cbc            | cast5-cbc         | id-aes128-ccm    |
-| aes-128-ccm  | aria-128-ccm  | bf-cfb            | cast5-cfb         | id-aes128-gcm    |
-| aes-128-cfb  | aria-128-cfb  | bf-ecb            | cast5-ecb         | id-aes192-ccm    |
-| aes-128-cfb1 | aria-128-cfb1 | bf-ofb            | cast5-ofb         | id-aes192-gcm    |
-| aes-128-cfb8 | aria-128-cfb8 | camellia-128-cbc  | chacha20          | id-aes256-ccm    |
-| aes-128-ctr  | aria-128-ctr  | camellia-128-cfb  | chacha20-poly1305 | id-aes256-gcm    |
-| aes-128-ecb  | aria-128-ecb  | camellia-128-cfb  | des-cbc           | idea-cbc         |
-| aes-128-gcm  | aria-128-gcm  | camellia-128-cfb  | des-cfb           | idea-cfb         |
-| aes-128-ofb  | aria-128-ofb  | camellia-128-ctr  | des-cfb1          | idea-ecb         |
-| aes-128-xts  | aria-192-cbc  | camellia-128-ecb  | des-cfb8          | idea-ofb         |
-| aes-192-cbc  | aria-192-ccm  | camellia-128-ofb  | des-ecb           | rc2-40-cbc       |
-| aes-192-ccm  | aria-192-cfb  | camellia-192-cbc  | des-ede-cbc       | rc2-64-cbc       |
-| aes-192-cfb  | aria-192-cfb1 | camellia-192-cfb  | des-ede-cfb       | rc2-cbc          |
-| aes-192-cfb1 | aria-192-cfb8 | camellia-192-cfb  | des-ede-ofb       | rc2-cfb          |
-| aes-192-cfb8 | aria-192-ctr  | camellia-192-cfb  | des-ede3-cbc      | rc2-ecb          |
-| aes-192-ctr  | aria-192-ecb  | camellia-192-ctr  | des-ede3-cfb      | rc2-ofb          |
-| aes-192-ecb  | aria-192-gcm  | camellia-192-ecb  | des-ede3-cfb1     | seed-cbc         |
-| aes-192-gcm  | aria-192-ofb  | camellia-192-ofb  | des-ede3-cfb8     | seed-cfb         |
-| aes-192-ofb  | aria-256-cbc  | camellia-256-cbc  | des-ede3-ofb      | seed-ecb         |
-| aes-256-cbc  | aria-256-ccm  | camellia-256-cfb  | des-ofb           | seed-ofb         |
-| aes-256-ccm  | aria-256-cfb  | camellia-256-cfb  | desx-cbc          | sm4-cbc          |
-| aes-256-cfb  | aria-256-cfb1 | camellia-256-cfb  |                   | sm4-cfb          |
-| aes-256-cfb1 | aria-256-cfb8 | camellia-256-ctr  |                   | sm4-ctr          |
-| aes-256-cfb8 | aria-256-ctr  | camellia-256-ecb  |                   | sm4-ecb          |
-| aes-256-ctr  | aria-256-ecb  | camellia-256-ofb  |                   |                  |
-| aes-256-ecb  | aria-256-gcm  |                   |                   |                  |
-| aes-256-gcm  | aria-256-ofb  |                   |                   |                  |
-| aes-256-ofb  |               |                   |                   |                  |
-| aes-256-xts  |               |                   |                   |                  |
+| AES          | Aria          | Blowfish/Camellia | Cast5/DES/SM4     | Idea/RC2/RC4/Seed |
+|--------------|---------------| ------------------|-------------------|-------------------|
+| aes-128-cbc  | aria-128-cbc  | bf-cbc            | cast5-cbc         | id-aes128-ccm     |
+| aes-128-ccm  | aria-128-ccm  | bf-cfb            | cast5-cfb         | id-aes128-gcm     |
+| aes-128-cfb  | aria-128-cfb  | bf-ecb            | cast5-ecb         | id-aes192-ccm     |
+| aes-128-cfb1 | aria-128-cfb1 | bf-ofb            | cast5-ofb         | id-aes192-gcm     |
+| aes-128-cfb8 | aria-128-cfb8 | camellia-128-cbc  | chacha20          | id-aes256-ccm     |
+| aes-128-ctr  | aria-128-ctr  | camellia-128-cfb  | chacha20-poly1305 | id-aes256-gcm     |
+| aes-128-ecb  | aria-128-ecb  | camellia-128-cfb  | des-cbc           | idea-cbc          |
+| aes-128-gcm  | aria-128-gcm  | camellia-128-cfb  | des-cfb           | idea-cfb          |
+| aes-128-ofb  | aria-128-ofb  | camellia-128-ctr  | des-cfb1          | idea-ecb          |
+| aes-128-xts  | aria-192-cbc  | camellia-128-ecb  | des-cfb8          | idea-ofb          |
+| aes-192-cbc  | aria-192-ccm  | camellia-128-ofb  | des-ecb           | rc2-40-cbc        |
+| aes-192-ccm  | aria-192-cfb  | camellia-192-cbc  | des-ede-cbc       | rc2-64-cbc        |
+| aes-192-cfb  | aria-192-cfb1 | camellia-192-cfb  | des-ede-cfb       | rc2-cbc           |
+| aes-192-cfb1 | aria-192-cfb8 | camellia-192-cfb  | des-ede-ofb       | rc2-cfb           |
+| aes-192-cfb8 | aria-192-ctr  | camellia-192-cfb  | des-ede3-cbc      | rc2-ecb           |
+| aes-192-ctr  | aria-192-ecb  | camellia-192-ctr  | des-ede3-cfb      | rc2-ofb           |
+| aes-192-ecb  | aria-192-gcm  | camellia-192-ecb  | des-ede3-cfb1     | rc4               |
+| aes-192-gcm  | aria-192-ofb  | camellia-192-ofb  | des-ede3-cfb8     | rc4-40            |
+| aes-192-ofb  | aria-256-cbc  | camellia-256-cbc  | des-ede3-ofb      | rc4-hmac-md5      |
+| aes-256-cbc  | aria-256-ccm  | camellia-256-cfb  | des-ofb           | seed-cbc          |
+| aes-256-ccm  | aria-256-cfb  | camellia-256-cfb  | desx-cbc          | seed-cfb          |
+| aes-256-cfb  | aria-256-cfb1 | camellia-256-cfb  | sm4-cbc           | seed-ecb          |
+| aes-256-cfb1 | aria-256-cfb8 | camellia-256-ctr  | sm4-cfb           | seed-ofb          |
+| aes-256-cfb8 | aria-256-ctr  | camellia-256-ecb  | sm4-ctr           |                   |
+| aes-256-ctr  | aria-256-ecb  | camellia-256-ofb  | sm4-ecb           |                   |
+| aes-256-ecb  | aria-256-gcm  |                   |                   |                   |
+| aes-256-gcm  | aria-256-ofb  |                   |                   |                   |
+| aes-256-ofb  |               |                   |                   |                   |
+| aes-256-xts  |               |                   |                   |                   |
 
 ## Notes
 
