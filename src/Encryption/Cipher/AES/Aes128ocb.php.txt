@@ -4,16 +4,16 @@ declare(strict_types=1);
 
 namespace Encryption\Cipher\AES;
 
+use Encryption\Cipher\ACipherAeadMode;
+use Encryption\Traits\DecryptAeadMode;
+use Encryption\Traits\EncryptWithPaddingAeadMode;
 
-use Encryption\Cipher\ACipherWithInitializationVector;
-use Encryption\Traits\decrypt;
-use Encryption\Traits\encryptWithPadding;
-
-final class Aes128ocb extends ACipher
+final class Aes128ocb extends ACipherAeadMode
 {
+    use EncryptWithPaddingAeadMode;
+    use DecryptAeadMode;
+
     public const BLOCK_SIZE = 8;
     public const IV_LENGTH = 12;
     public const CIPHER = 'AES-128-OCB';
-
-    use encryptWithPadding, decrypt;
 }
