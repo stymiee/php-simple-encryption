@@ -10,6 +10,14 @@ namespace Encryption\Traits;
  */
 trait EncryptWithPadding
 {
+    /**
+     * Encrypts a string for ciphers that use an initialization vector.
+     *
+     * @param string $plainText
+     * @param string $key
+     * @param string $iv
+     * @return string
+     */
     public function encrypt(string $plainText, string $key, string $iv): string
     {
         $plainText = $this->getPaddedText($plainText, static::BLOCK_SIZE);

@@ -10,6 +10,13 @@ namespace Encryption\Traits;
  */
 trait EncryptWithPaddingNoIV
 {
+    /**
+     * Encrypts a string for ciphers that do not use an initialization vector.
+     *
+     * @param string $plainText
+     * @param string $key
+     * @return string
+     */
     public function encrypt(string $plainText, string $key): string
     {
         $plainText = $this->getPaddedText($plainText, static::BLOCK_SIZE);

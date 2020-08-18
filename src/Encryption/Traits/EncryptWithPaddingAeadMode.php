@@ -10,6 +10,15 @@ namespace Encryption\Traits;
  */
 trait EncryptWithPaddingAeadMode
 {
+    /**
+     * Encrypts a string for ciphers that use a tag generated during the generation of the encrypted string.
+     *
+     * @param string $plainText
+     * @param string $key
+     * @param string $iv
+     * @param $tag
+     * @return string
+     */
     public function encrypt(string $plainText, string $key, string $iv, &$tag): string
     {
         $plainText = $this->getPaddedText($plainText, static::BLOCK_SIZE);
