@@ -15,6 +15,6 @@ class EncryptWithPaddingTest extends TestCase
         $key = 'secretkey';
         $plainText = 'The quick brown fox jumps over the lazy dog';
         $encryptedText = 'kfH/ShrzN7njpUqX/v42hUpXHpuZZ68qK7lIPbEcF3s/yMKnJLfb1yBsbRZkysdmzTKxcMpSSxvL1AOS3Jw8WA==';
-        $this->assertEquals($encryptedText, $encryptionObject->encrypt($plainText, $key, $iv));
+        self::assertEquals($encryptedText, $encryptionObject->encrypt($plainText, $key, $iv));
     }
 }

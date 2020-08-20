@@ -14,6 +14,6 @@ class DecryptNoIvTest extends TestCase
         $key = 'secretkey';
         $plainText = 'The quick brown fox jumps over the lazy dog';
         $encryptedText = 'at2CVI/8WlTnIBf3pCQo+C8u255HOZy96oDl5QaBRZdlxrONJu7qzZaL/JmzeERCK4WgRGopzze4YpWDW1jJbA==';
-        $this->assertEquals($plainText, $encryptionObject->decrypt($encryptedText, $key));
+        self::assertEquals($plainText, $encryptionObject->decrypt($encryptedText, $key));
     }
 }

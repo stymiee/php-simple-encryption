@@ -17,6 +17,6 @@ class DecryptAeadModeTest extends TestCase
         $key = 'secretkey';
         $plainText = 'The quick brown fox jumps over the lazy dog';
         $encryptedText = 'Q+r+mRu1frKinwp3S/WTq9A73320FrX0zR3ZigSiFZETZe7odRphosL52k0xbt5b';
-        $this->assertEquals($plainText, $encryptionObject->decrypt($encryptedText, $key, $iv, $tag));
+        self::assertEquals($plainText, $encryptionObject->decrypt($encryptedText, $key, $iv, $tag));
     }
 }

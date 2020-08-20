@@ -128,6 +128,9 @@ class PaddingWithIvAeadTest extends TestCase
 
     /**
      * @dataProvider dataProvider
+     * @param $cipher
+     * @param $iv
+     * @param $encrypted
      */
     public function testCiphersWithPaddingAndIv($cipher, $iv, $encrypted): void
     {
@@ -135,8 +138,8 @@ class PaddingWithIvAeadTest extends TestCase
         $iv = base64_decode($iv);
         $encryptedText = $encryptionObject->encrypt($this->plainText, $this->key, $iv, $tag);
         $decrytpedText = $encryptionObject->decrypt($encryptedText, $this->key, $iv, $tag);
-        $this->assertEquals($encrypted, $encryptedText);
-        $this->assertEquals($this->plainText, $decrytpedText);
+        self::assertEquals($encrypted, $encryptedText);
+        self::assertEquals($this->plainText, $decrytpedText);
     }
 
     public function dataProvider(): array

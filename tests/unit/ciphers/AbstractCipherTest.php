@@ -13,7 +13,7 @@ class AbstractCipherTest extends TestCase
     {
         $cipher = 'AES-128-ECB';
         $encryptionObject = Encryption::getEncryptionObject($cipher);
-        $this->assertEquals($cipher, $encryptionObject->getName());
+        self::assertEquals($cipher, $encryptionObject->getName());
     }
 
     public function testGetPaddedText(): void
@@ -21,7 +21,7 @@ class AbstractCipherTest extends TestCase
         $getPaddedText = new \ReflectionMethod(ACipher::class, 'getPaddedText');
         $getPaddedText->setAccessible(true);
 
-        $this->assertEquals(8, strlen($getPaddedText->invokeArgs(new Aes256cbc(), ['four', 8])));
-        $this->assertEquals(16, strlen($getPaddedText->invokeArgs(new Aes256cbc(), ['twelvetwelve', 8])));
+        self::assertEquals(8, strlen($getPaddedText->invokeArgs(new Aes256cbc(), ['four', 8])));
+        self::assertEquals(16, strlen($getPaddedText->invokeArgs(new Aes256cbc(), ['twelvetwelve', 8])));
     }
 }

@@ -17,12 +17,12 @@ class GenerateIvTest extends TestCase
         $generateInsecureIv->setAccessible(true);
 
         $length = 8;
-        $this->assertEquals($length, strlen($generateInsecureIv->invokeArgs($mockTrait, [$length])));
+        self::assertEquals($length, strlen($generateInsecureIv->invokeArgs($mockTrait, [$length])));
     }
 
     public function testGenerateIv()
     {
         $encryptionObject = new Aes256cbc();
-        $this->assertEquals(Aes256cbc::IV_LENGTH, strlen($encryptionObject->generateIv()));
+        self::assertEquals(Aes256cbc::IV_LENGTH, strlen($encryptionObject->generateIv()));
     }
 }

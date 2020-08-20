@@ -82,6 +82,8 @@ use Encryption\Cipher\DES\Descfb;
 use Encryption\Cipher\DES\Descfb1;
 use Encryption\Cipher\DES\Descfb8;
 use Encryption\Cipher\DES\Desecb;
+use Encryption\Cipher\DES\Desede;
+use Encryption\Cipher\DES\Desede3;
 use Encryption\Cipher\DES\Desede3cbc;
 use Encryption\Cipher\DES\Desede3cfb;
 use Encryption\Cipher\DES\Desede3cfb1;
@@ -102,6 +104,9 @@ use Encryption\Cipher\RC2\Rc2cbc;
 use Encryption\Cipher\RC2\Rc2cfb;
 use Encryption\Cipher\RC2\Rc2ecb;
 use Encryption\Cipher\RC2\Rc2ofb;
+use Encryption\Cipher\RC4\Rc4;
+use Encryption\Cipher\RC4\Rc440;
+use Encryption\Cipher\RC4\Rc4hmacmd5;
 use Encryption\Cipher\SEED\Seedcbc;
 use Encryption\Cipher\SEED\Seedcfb;
 use Encryption\Cipher\SEED\Seedecb;
@@ -126,14 +131,16 @@ class PaddingWithoutIvTest extends TestCase
 
     /**
      * @dataProvider dataProvider
+     * @param $cipher
+     * @param $encrypted
      */
     public function testCiphersWithPaddingAndNoIv($cipher, $encrypted): void
     {
         $encryptionObject = new $cipher();
         $encryptedText = $encryptionObject->encrypt($this->plainText, $this->key);
         $decrytpedText = $encryptionObject->decrypt($encryptedText, $this->key);
-        $this->assertEquals($encrypted, $encryptedText);
-        $this->assertEquals($this->plainText, $decrytpedText);
+        self::assertEquals($encrypted, $encryptedText);
+        self::assertEquals($this->plainText, $decrytpedText);
     }
 
     public function dataProvider(): array
@@ -188,12 +195,32 @@ class PaddingWithoutIvTest extends TestCase
                 'encryptedText' => 'V2RvqKLxdnr6jqc+brUypPo3E3wJvsxqjV2EA3fEY0zC/zLJ1WkvR82xF3W4BnJH3GRr2Tvw1lI='
             ],
             [
+                'class' => Desede::class,
+                'encryptedText' => 'ORdyjY2C/bVRCCDfzGCvK36NVYzhJSzpv6oVJzeK5hL7378Odi3aDiza3X7hKKkG5HVmNal7wqM='
+            ],
+            [
+                'class' => Desede3::class,
+                'encryptedText' => 'WQ5+KcAAXzLeTZQ5xpj3F8kMTTtmo25P1VuYq2k19z1Wppe5x6BplIE3X8lxdQ89zma4MrHzPNo='
+            ],
+            [
                 'class' => Ideaecb::class,
                 'encryptedText' => 'bGoLyogd8NFiU3gWIBttT4ktgFceM4BhGx0GRPjYbNVw+6+ipCX3mUrdSRmMIMMx+fVxVmS13zY='
             ],
             [
                 'class' => Rc2ecb::class,
                 'encryptedText' => '+vq0j35kRnF4piPg108iMsoY3rZ9H+HVw7u87V4wvUozeky78qxcJhjz1DShFB0S/ZdbM6RLwsU='
+            ],
+            [
+                'class' => Rc4::class,
+                'encryptedText' => 'PoEWhBFMQDYtHBigLsYOYmq7lXC3dZBq30a8BPfcuSSMK9h82AJDShNnGu9/D8WW'
+            ],
+            [
+                'class' => Rc440::class,
+                'encryptedText' => '8cC5PD3E/CtDjCn27VBbCxI4cUD0BkNE7v5DyxFdxMkYaENJc7Dggfqe83JuRc7P'
+            ],
+            [
+                'class' => Rc4hmacmd5::class,
+                'encryptedText' => 'PoEWhBFMQDYtHBigLsYOYmq7lXC3dZBq30a8BPfcuSSMK9h82AJDShNnGu9/D8WW'
             ],
             [
                 'class' => Seedecb::class,
