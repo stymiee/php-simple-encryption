@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherAeadMode;
 use Encryption\Traits\DecryptAeadMode;
 use Encryption\Traits\EncryptWithPaddingAeadMode;
 
+/**
+ * Class Aria128gcm
+ * @package Encryption\Cipher\ARIA
+ */
 final class Aria128gcm extends ACipherAeadMode
 {
     use DecryptAeadMode;

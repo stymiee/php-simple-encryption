@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Bfcfb
+ * @package Encryption\Cipher\BF
+ */
 final class Bfcfb extends ACipherWithInitializationVector
 {
     use Decrypt;

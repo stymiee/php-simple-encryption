@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
+/**
+ * Class Ideaecb
+ * @package Encryption\Cipher\IDEA
+ */
 final class Ideaecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;

@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Descbc
+ * @package Encryption\Cipher\DES
+ */
 final class Descbc extends ACipherWithInitializationVector
 {
     use Decrypt;

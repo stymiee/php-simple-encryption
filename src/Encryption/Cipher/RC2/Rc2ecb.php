@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
+/**
+ * Class Rc2ecb
+ * @package Encryption\Cipher\RC2
+ */
 final class Rc2ecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;

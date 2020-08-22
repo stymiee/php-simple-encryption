@@ -8,6 +8,11 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
+/**
+ * Class Desede3
+ * @package Encryption\Cipher\DES
+ * @since 1.0.3
+ */
 final class Desede3 extends ACipherNoInitializationVector
 {
     use EncryptWithPaddingNoIV;

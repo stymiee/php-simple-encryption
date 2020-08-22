@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
+/**
+ * Class Sm4ecb
+ * @package Encryption\Cipher\SM4
+ */
 final class Sm4ecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;

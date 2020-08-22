@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Aria256ofb
+ * @package Encryption\Cipher\ARIA
+ */
 final class Aria256ofb extends ACipherWithInitializationVector
 {
     use Decrypt;

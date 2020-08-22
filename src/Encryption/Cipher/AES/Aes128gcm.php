@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherAeadMode;
 use Encryption\Traits\DecryptAeadMode;
 use Encryption\Traits\EncryptWithPaddingAeadMode;
 
+/**
+ * Class Aes128gcm
+ * @package Encryption\Cipher\AES
+ */
 final class Aes128gcm extends ACipherAeadMode
 {
     use EncryptWithPaddingAeadMode;

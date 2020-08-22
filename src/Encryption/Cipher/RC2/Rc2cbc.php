@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Rc2cbc
+ * @package Encryption\Cipher\RC2
+ */
 final class Rc2cbc extends ACipherWithInitializationVector
 {
     use Decrypt;

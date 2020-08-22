@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Ideaofb
+ * @package Encryption\Cipher\IDEA
+ */
 final class Ideaofb extends ACipherWithInitializationVector
 {
     use Decrypt;

@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
+/**
+ * Class Camellia128ecb
+ * @package Encryption\Cipher\CAMELLIA
+ */
 final class Camellia128ecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;

@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
+/**
+ * Class Seedecb
+ * @package Encryption\Cipher\SEED
+ */
 final class Seedecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;

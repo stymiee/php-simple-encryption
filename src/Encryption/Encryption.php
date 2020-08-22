@@ -1,4 +1,16 @@
 <?php
+/**
+ * The PHP Simple Encryption library is designed to simplify the process of encrypting and decrypting data while
+ * ensuring best practices are followed. By default is uses a secure encryption algorithm and generates a
+ * cryptologically strong initialization vector so developers do not need to becomes experts in encryption to securely
+ * store sensitive data.
+ *
+ * @author John Conde <stymiee@gmail.com>
+ * @example https://www.johnconde.net/blog/php-simple-encryption/ PHP Simple Encryption
+ * @license https://www.apache.org/licenses/LICENSE-2.0 Apache License 2.0
+ * @link https://github.com/stymiee/php-simple-encryption
+ * @version 1.0.3
+ */
 
 declare(strict_types=1);
 
@@ -17,6 +29,9 @@ class Encryption
 {
     public const DEFAULT_CIPHER = 'AES-256-CBC';
 
+    /**
+     * @since 1.0.2
+     */
     public const VERSION = 1;
 
     /**
@@ -24,6 +39,8 @@ class Encryption
      * change with each version of this library.
      *
      * @param string|null $cipher
+     * @uses \Encryption\Encryption::getCipherMethods()
+     * @uses \Encryption\Encryption::createEncryptionObject()
      * @return ACipher
      * @throws CipherNotImplementedException
      * @throws InvalidCipherException
@@ -70,6 +87,7 @@ class Encryption
      * Creates the encryption object using the specified cipher.
      *
      * @param string $cipher
+     * @uses \Encryption\Encryption::createClassName()
      * @return ACipher
      * @throws CipherNotImplementedException
      */
@@ -86,6 +104,8 @@ class Encryption
     /**
      * Returns all ciphers that are available on the system AND is supported by this library.
      *
+     * @uses \Encryption\Encryption::getCipherMethods()
+     * @uses \Encryption\Encryption::createClassName()
      * @return array
      */
     public static function listAvailableCiphers(): array

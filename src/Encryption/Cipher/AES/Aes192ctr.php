@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Aes192ctr
+ * @package Encryption\Cipher\AES
+ */
 final class Aes192ctr extends ACipherWithInitializationVector
 {
     use Decrypt;

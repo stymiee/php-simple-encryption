@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Aes256ofb
+ * @package Encryption\Cipher\AES
+ */
 final class Aes256ofb extends ACipherWithInitializationVector
 {
     use Decrypt;

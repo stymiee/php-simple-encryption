@@ -14,6 +14,10 @@ abstract class ACipher
     public const IV_LENGTH = 0;
     public const CIPHER = 'abstract';
 
+    /**
+     * @since 1.0.1
+     * @return array
+     */
     public function __debugInfo(): array
     {
         return [

@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
+/**
+ * Class Aes256ecb
+ * @package Encryption\Cipher\AES
+ */
 final class Aes256ecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;

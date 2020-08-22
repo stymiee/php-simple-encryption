@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
+/**
+ * Class Aria192ecb
+ * @package Encryption\Cipher\ARIA
+ */
 final class Aria192ecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;

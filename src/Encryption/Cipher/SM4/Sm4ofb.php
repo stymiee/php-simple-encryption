@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Sm4ofb
+ * @package Encryption\Cipher\SM4
+ */
 final class Sm4ofb extends ACipherWithInitializationVector
 {
     use Decrypt;

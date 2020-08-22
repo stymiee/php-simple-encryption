@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherAeadMode;
 use Encryption\Traits\DecryptAeadMode;
 use Encryption\Traits\EncryptWithPaddingAeadMode;
 
+/**
+ * Class Idaes192gcm
+ * @package Encryption\Cipher\ID
+ */
 final class Idaes192gcm extends ACipherAeadMode
 {
     use DecryptAeadMode;

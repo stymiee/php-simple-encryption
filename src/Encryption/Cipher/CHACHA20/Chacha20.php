@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Chacha20
+ * @package Encryption\Cipher\CHACHA20
+ */
 final class Chacha20 extends ACipherWithInitializationVector
 {
     use Decrypt;

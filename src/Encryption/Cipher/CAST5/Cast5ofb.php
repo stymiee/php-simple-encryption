@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Cast5ofb
+ * @package Encryption\Cipher\CAST5
+ */
 final class Cast5ofb extends ACipherWithInitializationVector
 {
     use Decrypt;

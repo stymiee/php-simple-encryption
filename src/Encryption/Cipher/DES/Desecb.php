@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherNoInitializationVector;
 use Encryption\Traits\DecryptNoIV;
 use Encryption\Traits\EncryptWithPaddingNoIV;
 
+/**
+ * Class Desecb
+ * @package Encryption\Cipher\DES
+ */
 final class Desecb extends ACipherNoInitializationVector
 {
     use DecryptNoIV;

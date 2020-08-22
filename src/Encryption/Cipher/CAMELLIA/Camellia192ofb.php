@@ -8,6 +8,10 @@ use Encryption\Cipher\ACipherWithInitializationVector;
 use Encryption\Traits\Decrypt;
 use Encryption\Traits\EncryptWithPadding;
 
+/**
+ * Class Camellia192ofb
+ * @package Encryption\Cipher\CAMELLIA
+ */
 final class Camellia192ofb extends ACipherWithInitializationVector
 {
     use Decrypt;
