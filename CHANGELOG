@@ -1,4 +1,4 @@
-VERSION 1.0.3 - 2020-XX-XX
+VERSION 1.0.3 - 2020-09-24
 -----------------------------------------------------------------------------------------------------------------------
 Added DES-EDE, DES-EDE3, RC4, RC4-40, RC4-HMAC-MD5 algorithms (now supports 132 ciphers)
 Trimmed nulls from null padded strings (missed two traits)
