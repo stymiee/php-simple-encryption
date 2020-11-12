@@ -50,7 +50,7 @@ on my blog.
         printf('Decrypted: %s%s', $decryptedText, PHP_EOL);
         printf('Version  : %s%s', Encryption::VERSION, PHP_EOL);
     }
-    catch (EncryptionException) {
+    catch (EncryptionException  $e) {
         echo $e;
     }
     
