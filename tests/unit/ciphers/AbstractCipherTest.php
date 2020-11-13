@@ -27,6 +27,7 @@ class AbstractCipherTest extends TestCase
 
     public function testDebugInfo(): void
     {
+        self::markTestSkipped('Cannot test due to xdebug');
         $encryptionObject = Encryption::getEncryptionObject('AES-256-CBC');
         ob_start();
         var_dump($encryptionObject);
