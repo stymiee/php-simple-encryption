@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Encryption\Cipher;
 
+use Encryption\Exceptions\EncryptionException;
+
 /**
  * Class ACipher
  * @package Encryption\Cipher
@@ -25,6 +27,23 @@ abstract class ACipher
             'cipher' => static::CIPHER,
             'ivLength' => static::IV_LENGTH,
         ];
+    }
+
+    /**
+     * @param string $name
+     * @param array $arguments
+     * @throws EncryptionException
+     * @since 1.0.4
+     */
+    public function __call(string $name, array $arguments): void
+    {
+        if ($name === 'generateIv') {
+            $msg = sprintf(
+                '%s does not require an initialization vector (IV). Do not call Encryption::generateIv().',
+                static::CIPHER
+            );
+            throw new EncryptionException($msg);
+        }
     }
 
     /**
