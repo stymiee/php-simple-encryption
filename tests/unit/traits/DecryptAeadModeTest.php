@@ -12,11 +12,11 @@ class DecryptAeadModeTest extends TestCase
     {
         $encryptionObject = new Idaes128ccm();
 
-        $iv = base64_decode('rtfC7GSi74WuYDc2');
-        $tag = base64_decode('guLJc6EUt/IvnqDkf+/Yzg==');
+        $iv = base64_decode('PXqdTEnR1dfmvurk');
+        $tag = base64_decode('YNI2mDKuNCq7GCtghpG5+w==');
         $key = 'secretkey';
         $plainText = 'The quick brown fox jumps over the lazy dog';
-        $encryptedText = 'Q+r+mRu1frKinwp3S/WTq9A73320FrX0zR3ZigSiFZETZe7odRphosL52k0xbt5b';
+        $encryptedText = 'yUQfs5W+weVc3tVTHumJhFLhh5l/tpWa5SPzH8kzV/F/+cRB7y+rXdahaeTmCYH1';
         self::assertEquals($plainText, $encryptionObject->decrypt($encryptedText, $key, $iv, $tag));
     }
 }
