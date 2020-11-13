@@ -2,20 +2,20 @@
 
 namespace traits;
 
-use Encryption\Cipher\ID\Idaes128ccm;
+use Encryption\Cipher\AES\Aes192gcm;
 use PHPUnit\Framework\TestCase;
 
 class DecryptAeadModeTest extends TestCase
 {
     public function testDecrypt()
     {
-        $encryptionObject = new Idaes128ccm();
+        $encryptionObject = new Aes192gcm();
 
-        $iv = base64_decode('apA85DhJuGNpg5E0');
-        $tag = base64_decode('anmU9qpWZwUkVduRruhTSA==');
+        $iv = base64_decode('2a22ooVG8hCRML0e');
+        $tag = base64_decode('1FB8j0v6uY0ML1ec/weQ4Q==');
         $key = 'secretkey';
         $plainText = 'The quick brown fox jumps over the lazy dog';
-        $encryptedText = 'bZJRj3Lxo02PQWM2xqCWja/dDmt+z+3XP+mwCgwREiNnFj1c77fJ2VOgIVLwdBaA';
+        $encryptedText = 'zgVtO99ZuylWxhkc2pNlBKNWD2SbQ5yqzGsbDAsNFCchQ4F5baL1crkM7kYcajAj';
         self::assertEquals($plainText, $encryptionObject->decrypt($encryptedText, $key, $iv, $tag));
     }
 }
