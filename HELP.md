@@ -9,6 +9,14 @@ default, this library uses a secure crypto cipher and initialization vector gene
 library with the default settings you will be secure *by default*. (This does not include how you store and transmit 
 that data, of course).
 
+## Common Errors
+
+### Call to undefined method Encryption\Cipher\[cipher-family]\[cipher-name]::generateIv()
+### [cipher-name] does not require an initialization vector (IV). Do not call Encryption::generateIv().
+
+This error occurs when trying to generate an initialization vector for a cipher that does not require one. Simply do not
+use this line of code: `$iv = $encryption->generateIv();`.
+
 ## Asking for help on Stack Overflow
 Be sure when you [ask a question](http://stackoverflow.com/questions/ask?tags=php,encryption,openssl) pertaining to the 
 usage of this library be sure to tag your question with the **PHP** and **encryption** tags. Make sure you follow their
