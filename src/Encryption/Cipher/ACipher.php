@@ -30,10 +30,10 @@ abstract class ACipher
     }
 
     /**
+     * @since 1.0.4
      * @param string $name
      * @param array $arguments
      * @throws EncryptionException
-     * @since 1.0.4
      */
     public function __call(string $name, array $arguments): void
     {
