@@ -1,7 +1,7 @@
-VERSION 1.0.4 -
+VERSION 1.0.4 - 2020-11-25
 -----------------------------------------------------------------------------------------------------------------------
 Throw Exception with a clear error message when trying to generate an IV for a cipher that does not require one
-Updated HELP file with errors when calling Encryption::generateIv()
+Updated HELP file with errors when calling ACipher::generateIv()
 
 
 VERSION 1.0.3 - 2020-09-24
