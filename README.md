@@ -32,27 +32,29 @@ To get a more detailed introduction to this library, visit the
 [PHP Simple Encryption tutorial](https://www.johnconde.net/blog/php-simple-encryption/?utm_source=github&utm_medium=link&utm_campaign=php-encryption)
 on my blog.
 
-    require('./vendor/autoload.php');
-        
-    use Encryption\Encryption;
-    use Encryption\Exception\EncryptionException;
-    
-    $text = 'The quick brown fox jumps over the lazy dog';
-    $key  = 'secretkey';
-    try {
-        $encryption = Encryption::getEncryptionObject();
-        $iv = $encryption->generateIv();
-        $encryptedText = $encryption->encrypt($text, $key, $iv);
-        $decryptedText = $encryption->decrypt($encryptedText, $key, $iv);
-        
-        printf('Cipher   : %s%s', $encryption->getName(), PHP_EOL);
-        printf('Encrypted: %s%s', $encryptedText, PHP_EOL);
-        printf('Decrypted: %s%s', $decryptedText, PHP_EOL);
-        printf('Version  : %s%s', Encryption::VERSION, PHP_EOL);
-    }
-    catch (EncryptionException $e) {
-        echo $e;
-    }
+```php
+require('./vendor/autoload.php');
+
+use Encryption\Encryption;
+use Encryption\Exception\EncryptionException;
+
+$text = 'The quick brown fox jumps over the lazy dog';
+$key  = 'secretkey';
+try {
+    $encryption = Encryption::getEncryptionObject();
+    $iv = $encryption->generateIv();
+    $encryptedText = $encryption->encrypt($text, $key, $iv);
+    $decryptedText = $encryption->decrypt($encryptedText, $key, $iv);
+
+    printf('Cipher   : %s%s', $encryption->getName(), PHP_EOL);
+    printf('Encrypted: %s%s', $encryptedText, PHP_EOL);
+    printf('Decrypted: %s%s', $decryptedText, PHP_EOL);
+    printf('Version  : %s%s', Encryption::VERSION, PHP_EOL);
+}
+catch (EncryptionException $e) {
+    echo $e;
+}
+```
     
 Outputs
 
@@ -74,8 +76,10 @@ result in a major version bump when this occurs. You can check the version of yo
  
 To determine what cipher you are using you can call the `getName()` method on your encryption object.
 
-    $encryption = Encryption::getEncryptionObject();
-    $cipherName = $encryptuion->getName(); // AES-256-CBC
+```php
+$encryption = Encryption::getEncryptionObject();
+$cipherName = $encryption->getName(); // AES-256-CBC
+```
     
 To get a list of ciphers supported by your system *and* this library you can call `Encryption::listAvailableCiphers()`
 to receive an array of available ciphers. This list is an intersection of available ciphers from your system's
