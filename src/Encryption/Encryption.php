@@ -9,7 +9,7 @@
  * @example https://www.johnconde.net/blog/php-simple-encryption/ PHP Simple Encryption
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache License 2.0
  * @link https://github.com/stymiee/php-simple-encryption
- * @version 1.0.3
+ * @version 1.0.4
  */
 
 declare(strict_types=1);
