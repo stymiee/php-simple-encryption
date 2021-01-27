@@ -25,7 +25,6 @@
         "phpunit/phpunit": "^8",
         "phpmd/phpmd": "@stable",
         "squizlabs/php_codesniffer": "@stable",
-        "phpdocumentor/phpdocumentor": "@stable"
     },
     "autoload": {
         "psr-4": {
