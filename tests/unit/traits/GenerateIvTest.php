@@ -9,7 +9,7 @@ use ReflectionClass;
 
 class GenerateIvTest extends TestCase
 {
-    public function testGenerateInsecureIv()
+    public function testGenerateInsecureIv(): void
     {
         $mockTrait = $this->getMockForTrait(GenerateIv::class);
         $reflectedTrait = new ReflectionClass($mockTrait);
@@ -20,7 +20,7 @@ class GenerateIvTest extends TestCase
         self::assertEquals($length, strlen($generateInsecureIv->invokeArgs($mockTrait, [$length])));
     }
 
-    public function testGenerateIv()
+    public function testGenerateIv(): void
     {
         $encryptionObject = new Aes256cbc();
         self::assertEquals(Aes256cbc::IV_LENGTH, strlen($encryptionObject->generateIv()));
