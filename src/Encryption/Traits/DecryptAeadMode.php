@@ -27,7 +27,7 @@ trait DecryptAeadMode
         $string = openssl_decrypt(base64_decode($encryptedText), static::CIPHER, $key, OPENSSL_RAW_DATA, $iv, $tag);
         if (!$string) {
             $errorMessage = sprintf(
-                'Failed to decrypt. [String: %s] [Cipher: %s] [Key: %s] [IV: %s]. [Tag:%s]',
+                'Failed to decrypt. [String: %s] [Cipher: %s] [Key: %s] [IV: %s] [Tag:%s]',
                 $encryptedText,
                 static::CIPHER,
                 $key,
