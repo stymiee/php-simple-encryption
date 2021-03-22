@@ -7,6 +7,7 @@ namespace Encryption\Exceptions;
 /**
  * Class CipherNotImplementedException
  * @package Encryption\Exceptions
+ * @since 1.0.5
  */
 final class EncryptException extends EncryptionException
 {
