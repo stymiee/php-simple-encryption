@@ -4,7 +4,7 @@ Added AES-128-CBC-HMAC-SHA1, AES-128-CBC-HMAC-SHA256, AES-256-CBC-HMAC-SHA1, AES
       AES-128-OCB, AES-192-OCB, AES-256-OCB algorithms (now supports 139 ciphers)
 
 
-VERSION 1.0.5 - 2021-03-22
+VERSION 1.0.5 - 2021-03-08Minor updates
 -----------------------------------------------------------------------------------------------------------------------
 Throw Exception if unable to encrypt or decrypt
 

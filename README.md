@@ -133,6 +133,9 @@ installed version of Openssl and ciphers supported by this library.
 
 If the text to be encrypted contains trailing null characters they will be removed when decrypting those values.
 
+Some ciphers may not work on your version of PHP. The newer your version of PHP (and its openssl extension), the more
+ciphers that will be available to you.
+
 ## Support
 
 If you require assistance using this library start by viewing the [HELP.md](HELP.md) file included in this package. It 
