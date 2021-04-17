@@ -28,7 +28,7 @@ class EncryptionTest extends TestCase
     public function testCipherNotImplementedException(): void
     {
         $this->expectException(CipherNotImplementedException::class);
-        Encryption::getEncryptionObject('AES-128-OCB');
+        Encryption::getEncryptionObject('ID-AES128-WRAP-PAD');
     }
 
     public function testCreateClassName(): void
