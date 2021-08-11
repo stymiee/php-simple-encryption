@@ -1,8 +1,8 @@
 <?php
 /**
  * The PHP Simple Encryption library is designed to simplify the process of encrypting and decrypting data while
- * ensuring best practices are followed. By default is uses a secure encryption algorithm and generates a
- * cryptologically strong initialization vector so developers do not need to becomes experts in encryption to securely
+ * ensuring best practices are followed. By default, it uses a secure encryption algorithm and generates a
+ * cryptologically strong initialization vector so developers do not need to become experts in encryption to securely
  * store sensitive data.
  *
  * @author John Conde <stymiee@gmail.com>
