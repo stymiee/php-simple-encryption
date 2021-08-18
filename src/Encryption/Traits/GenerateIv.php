@@ -14,7 +14,7 @@ use Exception;
 trait GenerateIv
 {
     /**
-     * Generates an initialization vector. Defaukts to using openssl_random_pseudo_bytes() but will fall back to
+     * Generates an initialization vector. Defaults to using openssl_random_pseudo_bytes() but will fall back to
      * random_bytes() if false is returned. If random_bytes() fails and $allowLessSecureIv is set to TRUE an IV
      * will be generated using random characters (not recommended for production use).
      *
