@@ -66,7 +66,7 @@ Outputs
 An exception may be thrown if:
 - An invalid/unsupported cipher is attempted to be used (`Encryption\Exception\InvalidCipherException`)
 - A cipher available in openssl but yet implemented is attempted to be used (`Encryption\Exception\CipherNotImplementedException`)
-- `generateIv()` is unable to generate a initialization vector (`\RuntimeException`).
+- `generateIv()` is unable to generate a initialization vector (`Encryption\Exception\GenerateIvException`).
 - `Encryption::encrypt()` is unable to encrypt the data (`Encryption\Exception\EncryptException`).
 - `Encryption::decrypt()` is unable to decrypt the data (`Encryption\Exception\DecryptException`).
 
