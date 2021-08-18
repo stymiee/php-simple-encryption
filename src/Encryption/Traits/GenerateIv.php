@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Encryption\Traits;
 
+use Encryption\Exceptions\GenerateIvException;
 use Exception;
-use RuntimeException;
 
 /**
  * Trait GenerateIv
@@ -20,6 +20,7 @@ trait GenerateIv
      *
      * @param bool $allowLessSecureIv
      * @return string
+     * @throws GenerateIvException
      */
     public function generateIv(bool $allowLessSecureIv = false): string
     {
@@ -32,7 +33,7 @@ trait GenerateIv
                 if ($allowLessSecureIv) {
                     $random = $this->generateInsecureIv(static::IV_LENGTH);
                 } else {
-                    throw new RuntimeException('Unable to generate initialization vector (IV)');
+                    throw new GenerateIvException('Unable to generate initialization vector (IV)');
                 }
             }
         }
@@ -45,6 +46,7 @@ trait GenerateIv
      *
      * @param int $length
      * @return string
+     * @throws GenerateIvException
      */
     protected function generateInsecureIv(int $length): string
     {
@@ -63,7 +65,7 @@ trait GenerateIv
             }
             return $random;
         } catch (Exception $e) {
-            throw new RuntimeException('Unable to generate insecure initialization vector (IV)');
+            throw new GenerateIvException('Unable to generate insecure initialization vector (IV)');
         }
     }
 }
