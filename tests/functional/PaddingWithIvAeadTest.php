@@ -2,117 +2,24 @@
 
 namespace functional;
 
-use Encryption\Cipher\AES\Aes128cbc;
 use Encryption\Cipher\AES\Aes128ccm;
-use Encryption\Cipher\AES\Aes128cfb;
-use Encryption\Cipher\AES\Aes128cfb1;
-use Encryption\Cipher\AES\Aes128cfb8;
-use Encryption\Cipher\AES\Aes128ctr;
 use Encryption\Cipher\AES\Aes128gcm;
-use Encryption\Cipher\AES\Aes128ofb;
-use Encryption\Cipher\AES\Aes128xts;
-use Encryption\Cipher\AES\Aes192cbc;
 use Encryption\Cipher\AES\Aes192ccm;
-use Encryption\Cipher\AES\Aes192cfb;
-use Encryption\Cipher\AES\Aes192cfb1;
-use Encryption\Cipher\AES\Aes192cfb8;
-use Encryption\Cipher\AES\Aes192ctr;
 use Encryption\Cipher\AES\Aes192gcm;
-use Encryption\Cipher\AES\Aes192ofb;
-use Encryption\Cipher\AES\Aes256cbc;
 use Encryption\Cipher\AES\Aes256ccm;
-use Encryption\Cipher\AES\Aes256cfb;
-use Encryption\Cipher\AES\Aes256cfb1;
-use Encryption\Cipher\AES\Aes256cfb8;
-use Encryption\Cipher\AES\Aes256ctr;
 use Encryption\Cipher\AES\Aes256gcm;
-use Encryption\Cipher\AES\Aes256ofb;
-use Encryption\Cipher\AES\Aes256xts;
-use Encryption\Cipher\ARIA\Aria128cbc;
 use Encryption\Cipher\ARIA\Aria128ccm;
-use Encryption\Cipher\ARIA\Aria128cfb;
-use Encryption\Cipher\ARIA\Aria128cfb1;
-use Encryption\Cipher\ARIA\Aria128cfb8;
-use Encryption\Cipher\ARIA\Aria128ctr;
 use Encryption\Cipher\ARIA\Aria128gcm;
-use Encryption\Cipher\ARIA\Aria128ofb;
-use Encryption\Cipher\ARIA\Aria192cbc;
 use Encryption\Cipher\ARIA\Aria192ccm;
-use Encryption\Cipher\ARIA\Aria192cfb;
-use Encryption\Cipher\ARIA\Aria192cfb1;
-use Encryption\Cipher\ARIA\Aria192cfb8;
-use Encryption\Cipher\ARIA\Aria192ctr;
 use Encryption\Cipher\ARIA\Aria192gcm;
-use Encryption\Cipher\ARIA\Aria192ofb;
-use Encryption\Cipher\ARIA\Aria256cbc;
 use Encryption\Cipher\ARIA\Aria256ccm;
-use Encryption\Cipher\ARIA\Aria256cfb;
-use Encryption\Cipher\ARIA\Aria256cfb1;
-use Encryption\Cipher\ARIA\Aria256cfb8;
-use Encryption\Cipher\ARIA\Aria256ctr;
 use Encryption\Cipher\ARIA\Aria256gcm;
-use Encryption\Cipher\ARIA\Aria256ofb;
-use Encryption\Cipher\BF\Bfcbc;
-use Encryption\Cipher\BF\Bfcfb;
-use Encryption\Cipher\BF\Bfofb;
-use Encryption\Cipher\CAMELLIA\Camellia128cbc;
-use Encryption\Cipher\CAMELLIA\Camellia128cfb;
-use Encryption\Cipher\CAMELLIA\Camellia128cfb1;
-use Encryption\Cipher\CAMELLIA\Camellia128cfb8;
-use Encryption\Cipher\CAMELLIA\Camellia128ctr;
-use Encryption\Cipher\CAMELLIA\Camellia128ofb;
-use Encryption\Cipher\CAMELLIA\Camellia192cbc;
-use Encryption\Cipher\CAMELLIA\Camellia192cfb;
-use Encryption\Cipher\CAMELLIA\Camellia192cfb1;
-use Encryption\Cipher\CAMELLIA\Camellia192cfb8;
-use Encryption\Cipher\CAMELLIA\Camellia192ctr;
-use Encryption\Cipher\CAMELLIA\Camellia192ofb;
-use Encryption\Cipher\CAMELLIA\Camellia256cbc;
-use Encryption\Cipher\CAMELLIA\Camellia256cfb;
-use Encryption\Cipher\CAMELLIA\Camellia256cfb1;
-use Encryption\Cipher\CAMELLIA\Camellia256cfb8;
-use Encryption\Cipher\CAMELLIA\Camellia256ctr;
-use Encryption\Cipher\CAMELLIA\Camellia256ofb;
-use Encryption\Cipher\CAST5\Cast5cbc;
-use Encryption\Cipher\CAST5\Cast5cfb;
-use Encryption\Cipher\CAST5\Cast5ofb;
-use Encryption\Cipher\CHACHA20\Chacha20;
-use Encryption\Cipher\CHACHA20\Chacha20poly1305;
-use Encryption\Cipher\DES\Descbc;
-use Encryption\Cipher\DES\Descfb;
-use Encryption\Cipher\DES\Descfb1;
-use Encryption\Cipher\DES\Descfb8;
-use Encryption\Cipher\DES\Desede3cbc;
-use Encryption\Cipher\DES\Desede3cfb;
-use Encryption\Cipher\DES\Desede3cfb1;
-use Encryption\Cipher\DES\Desede3cfb8;
-use Encryption\Cipher\DES\Desede3ofb;
-use Encryption\Cipher\DES\Desedecbc;
-use Encryption\Cipher\DES\Desedecfb;
-use Encryption\Cipher\DES\Desedeofb;
-use Encryption\Cipher\DES\Desofb;
-use Encryption\Cipher\DESX\Desxcbc;
 use Encryption\Cipher\ID\Idaes128ccm;
 use Encryption\Cipher\ID\Idaes128gcm;
 use Encryption\Cipher\ID\Idaes192ccm;
 use Encryption\Cipher\ID\Idaes192gcm;
 use Encryption\Cipher\ID\Idaes256ccm;
 use Encryption\Cipher\ID\Idaes256gcm;
-use Encryption\Cipher\IDEA\Ideacbc;
-use Encryption\Cipher\IDEA\Ideacfb;
-use Encryption\Cipher\IDEA\Ideaofb;
-use Encryption\Cipher\RC2\Rc240cbc;
-use Encryption\Cipher\RC2\Rc264cbc;
-use Encryption\Cipher\RC2\Rc2cbc;
-use Encryption\Cipher\RC2\Rc2cfb;
-use Encryption\Cipher\RC2\Rc2ofb;
-use Encryption\Cipher\SEED\Seedcbc;
-use Encryption\Cipher\SEED\Seedcfb;
-use Encryption\Cipher\SEED\Seedofb;
-use Encryption\Cipher\SM4\Sm4cbc;
-use Encryption\Cipher\SM4\Sm4cfb;
-use Encryption\Cipher\SM4\Sm4ctr;
-use Encryption\Cipher\SM4\Sm4ofb;
 use PHPUnit\Framework\TestCase;
 
 class PaddingWithIvAeadTest extends TestCase
@@ -148,7 +55,7 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Aes128ccm::class,
                 'iv' => 'ljYh4aEhDR8gApg6',
-                'encryptedText' => 'EBCWE30lHGtO5hiDv2Wch/bg0hCbV29ZIagybsgRhdqkDQG8NtUcRhUO4Tp1FX6o'
+                'encryptedText' => 'lzhThjiSfnsGhaWpqYHefzNMoKmpItWqyy8O9YYCrw4LqeMV3qXDYYnnFqb6A+Bk'
             ],
             [
                 'class' => Aes128gcm::class,
@@ -158,7 +65,7 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Aes192ccm::class,
                 'iv' => 'WIPSkeGyy97h39uh',
-                'encryptedText' => 'RwoVwcQrCPoL+sUD8MDYLnO+YSKNHW/wAzaaNyb9iJuBIDzBVboyWBh4Bzckfl4O'
+                'encryptedText' => 'AIzFC1LKxbK9/FlP8YRERXI3GyJKtFp8pJNQt2iboCXP4x4jbzjJdS60yeSqCZUl'
             ],
             [
                 'class' => Aes192gcm::class,
@@ -168,7 +75,7 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Aes256ccm::class,
                 'iv' => 'jNTNXxbKy2/COMyO',
-                'encryptedText' => '3YG4Fng2HwO8pfDd2RYxDmSidSdQJCyOu2Pnov296ZRDBrgf/p/uncdVAp/RGu9Y'
+                'encryptedText' => 'TK4cooqVagXr5YWcZOZauFY4d50ZhJ1deOMPJctg+Nf0nqkZ7C0pgna4KkXVorw3'
             ],
             [
                 'class' => Aes256gcm::class,
@@ -178,7 +85,7 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Aria128ccm::class,
                 'iv' => 'oBsOj5WOnPh2cMnf',
-                'encryptedText' => 'r8Xc6DR05XMUm9LO0g+F4BWIHvSnVUPMro+Pn7r1ic24qz2Br7wSyN5y6oN3hTM/'
+                'encryptedText' => 'F0lFYgHScWLMvi0ou+kHZi6jqjQG7l1jtHKVBEHJRtqS22b3zklFx28idKhBitNv'
             ],
             [
                 'class' => Aria128gcm::class,
@@ -188,7 +95,7 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Aria192ccm::class,
                 'iv' => 'mg5tclrVvJ7F8P4F',
-                'encryptedText' => 'x7qh9x57Oky3D+K4SlK774jVXfbBdAjOlp/IQo9suGNX1Z1AlXoBSI8Us6e84m/G'
+                'encryptedText' => 'ReBk+neP99JYTvGFyHWPMwYbZveLC0yDF62YvjC3gECWEIFW3e8kv8HbizFv6sm4'
             ],
             [
                 'class' => Aria192gcm::class,
@@ -198,7 +105,7 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Aria256ccm::class,
                 'iv' => 'Y7ZRNS/RMu46bVGo',
-                'encryptedText' => 'sMrfPgQTMaxQIvYG2n2k9nlXTr2llwRJx9Jbw6RbWwG4wjJNCccHSlY7Q5TReVks'
+                'encryptedText' => '9UUvLgXdkMVQPAxJdhAltcTvEp1v+nC6mGlPo8p61jz2y4QAeq7OW34qRPY01ZVj'
             ],
             [
                 'class' => Aria256gcm::class,
@@ -208,7 +115,7 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Idaes128ccm::class,
                 'iv' => 'lkAoiRVbyl+Cpmt+',
-                'encryptedText' => 'X7ykIHYxlL4NxKbx3ht1Lmdh6ojxpg+HhaFRO+Xu4nXWGRflTItiqnxaezMLz9BF'
+                'encryptedText' => '56lJ2KF/38iImAE2fJV3dxsX0IvWqBwiPLgoEvyGHjUPpuqCipzer7fUhPqTpRZl'
             ],
             [
                 'class' => Idaes128gcm::class,
@@ -218,7 +125,7 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Idaes192ccm::class,
                 'iv' => 'Q7AokS4z/gSS7p1Q',
-                'encryptedText' => '4Yl5/HLYPhGOycl5YBUgxiZsq+GYF2yBr4ng4WTkJPchcG1+PZlALtUA2SWag7iW'
+                'encryptedText' => 'W1AAWSVpLyQNMt1OsCNd7PmDV6o1B/O/rj/SzIXRuxnYmuq+hYbdeAtBI2LySCG2'
             ],
             [
                 'class' => Idaes192gcm::class,
@@ -228,7 +135,7 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Idaes256ccm::class,
                 'iv' => 'D4U3gnBIms+Ob1GW',
-                'encryptedText' => 'pjsiHwFWgWMOHlK+CK1ttxvIjN7DnU4taeFuDo7n9NvBmwafe+hVEjLhrZuIBy/A'
+                'encryptedText' => 'TVik7zIqAsgr90l3lzCkVe6BcMKgZq+t6g7jVI9Vm1hEoEEJ06gOLlHR+QUMbb3d'
             ],
             [
                 'class' => Idaes256gcm::class,
