@@ -9,7 +9,7 @@
  * @example https://www.johnconde.net/blog/php-simple-encryption/ PHP Simple Encryption
  * @license https://www.apache.org/licenses/LICENSE-2.0 Apache License 2.0
  * @link https://github.com/stymiee/php-simple-encryption
- * @version 1.0.4
+ * @version 1.0.7
  */
 
 declare(strict_types=1);
@@ -39,11 +39,11 @@ class Encryption
      * change with each version of this library.
      *
      * @param string|null $cipher
-     * @uses \Encryption\Encryption::getCipherMethods()
-     * @uses \Encryption\Encryption::createEncryptionObject()
      * @return ACipher
      * @throws CipherNotImplementedException
      * @throws InvalidCipherException
+     * @uses Encryption::createEncryptionObject
+     * @uses Encryption::getCipherMethods
      */
     public static function getEncryptionObject(?string $cipher = null): ACipher
     {
@@ -87,9 +87,9 @@ class Encryption
      * Creates the encryption object using the specified cipher.
      *
      * @param string $cipher
-     * @uses \Encryption\Encryption::createClassName()
      * @return ACipher
      * @throws CipherNotImplementedException
+     *@uses Encryption::createClassName
      */
     protected static function createEncryptionObject(string $cipher): ACipher
     {
@@ -104,9 +104,9 @@ class Encryption
     /**
      * Returns all ciphers that are available on the system AND is supported by this library.
      *
-     * @uses \Encryption\Encryption::getCipherMethods()
-     * @uses \Encryption\Encryption::createClassName()
      * @return array
+     * @uses Encryption::createClassName
+     * @uses Encryption::getCipherMethods
      */
     public static function listAvailableCiphers(): array
     {
