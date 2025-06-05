@@ -15,7 +15,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: nanasess/setup-php@v3
+    - uses: nanasess/setup-php@v3.0.6
       with:
         php-version: '7.4'
 
