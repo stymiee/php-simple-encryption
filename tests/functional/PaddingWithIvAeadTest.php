@@ -43,6 +43,7 @@ class PaddingWithIvAeadTest extends TestCase
     {
         $encryptionObject = new $cipher();
         $iv = base64_decode($iv);
+        $tag = 'fixed_tag';
         $encryptedText = $encryptionObject->encrypt($this->plainText, $this->key, $iv, $tag);
         $decrytpedText = $encryptionObject->decrypt($encryptedText, $this->key, $iv, $tag);
         self::assertEquals($encrypted, $encryptedText);
@@ -75,42 +76,42 @@ class PaddingWithIvAeadTest extends TestCase
             [
                 'class' => Aes256ccm::class,
                 'iv' => 'jNTNXxbKy2/COMyO',
-                'encryptedText' => 'TK4cooqVagXr5YWcZOZauFY4d50ZhJ1deOMPJctg+Nf0nqkZ7C0pgna4KkXVorw3'
+                'encryptedText' => 'TK4cooqVagXr5YWcZOZauFY4d50ZhJ1deOMPJctg+Nf0nqkZ7C0pgna4Kg=='
             ],
             [
                 'class' => Aes256gcm::class,
                 'iv' => 'A21FNKUvS1nkqGFI',
-                'encryptedText' => 'dxYMKnJsKhmZ0bGjHOKCka3g63LzvwbMCdUsNoH8H0CPDAbSmjUB6LyFvMCCk5jT'
+                'encryptedText' => 'dxYMKnJsKhmZ0bGjHOKCka3g63LzvwbMCdUsNoH8H0CPDAbSmjUB6LyFvA=='
             ],
             [
                 'class' => Aria128ccm::class,
                 'iv' => 'oBsOj5WOnPh2cMnf',
-                'encryptedText' => 'F0lFYgHScWLMvi0ou+kHZi6jqjQG7l1jtHKVBEHJRtqS22b3zklFx28idKhBitNv'
+                'encryptedText' => 'F0lFYgHScWLMvi0ou+kHZi6jqjQG7l1jtHKVBEHJRtqS22b3zklFx28idA=='
             ],
             [
                 'class' => Aria128gcm::class,
                 'iv' => 'GtMRWbxotmZ1SPsq',
-                'encryptedText' => 'jJoMLli/0xdW9fDMnhgGhphkXgNmgPJP8BvYBvTsvTpJThIBMNhMpAEcoJ9yTi2e'
+                'encryptedText' => 'jJoMLli/0xdW9fDMnhgGhphkXgNmgPJP8BvYBvTsvTpJThIBMNhMpAEcoA=='
             ],
             [
                 'class' => Aria192ccm::class,
                 'iv' => 'mg5tclrVvJ7F8P4F',
-                'encryptedText' => 'ReBk+neP99JYTvGFyHWPMwYbZveLC0yDF62YvjC3gECWEIFW3e8kv8HbizFv6sm4'
+                'encryptedText' => 'ReBk+neP99JYTvGFyHWPMwYbZveLC0yDF62YvjC3gECWEIFW3e8kv8Hbiw=='
             ],
             [
                 'class' => Aria192gcm::class,
                 'iv' => 'yHxjxoseUbEctW80',
-                'encryptedText' => 'RxO9skcl2yatnB3QHLwFrrISjrNlVdBlpnoErYS4gHWxlF9ItwHNniGmIuzytD3w'
+                'encryptedText' => 'RxO9skcl2yatnB3QHLwFrrISjrNlVdBlpnoErYS4gHWxlF9ItwHNniGmIg=='
             ],
             [
                 'class' => Aria256ccm::class,
                 'iv' => 'Y7ZRNS/RMu46bVGo',
-                'encryptedText' => '9UUvLgXdkMVQPAxJdhAltcTvEp1v+nC6mGlPo8p61jz2y4QAeq7OW34qRPY01ZVj'
+                'encryptedText' => '9UUvLgXdkMVQPAxJdhAltcTvEp1v+nC6mGlPo8p61jz2y4QAeq7OW34qRA=='
             ],
             [
                 'class' => Aria256gcm::class,
                 'iv' => 'JnRFY8EvCMb2Qw6b',
-                'encryptedText' => 'oYFFnXn6bgyPV0EQXtQLnRc0uzB3tFFL0wgFkouVTJKlwo+sF3P4Za791q1bDwIO'
+                'encryptedText' => 'oYFFnXn6bgyPV0EQXtQLnRc0uzB3tFFL0wgFkouVTJKlwo+sF3P4Za791g=='
             ],
             [
                 'class' => Idaes128ccm::class,

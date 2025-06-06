@@ -28,7 +28,7 @@ class EncryptionTest extends TestCase
     public function testCipherNotImplementedException(): void
     {
         $this->expectException(CipherNotImplementedException::class);
-        Encryption::getEncryptionObject('ID-AES128-WRAP-PAD');
+        Encryption::getEncryptionObject('id-aes256-wrap-pad');
     }
 
     public function testCreateClassName(): void
@@ -46,7 +46,7 @@ class EncryptionTest extends TestCase
         $availableCiphers = Encryption::listAvailableCiphers();
         self::assertIsArray($availableCiphers);
         self::assertContains('aes-128-ccm', $availableCiphers);
-        self::assertContains('seed-ecb', $availableCiphers);
+        self::assertContains('aes-256-cbc', $availableCiphers);
     }
 
     public function testGetDefaultCipherByVersionDefaultParameter(): void

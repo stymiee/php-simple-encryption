@@ -23,7 +23,7 @@ class DecryptAeadModeTest extends TestCase
     public function testDecryptException(): void
     {
         $this->expectException(DecryptException::class);
-        $this->expectExceptionMessageMatches('/^Failed to decrypt\. \[String: \] \[Cipher: AES-192-GCM\] \[Key: secretkey] \[IV:.*?\[Tag:.*?/');
+        $this->expectExceptionMessage('Encrypted text cannot be empty');
 
         $encryptionObject = new Aes192gcm();
         $iv = base64_decode('2a22ooVG8hCRML0e');

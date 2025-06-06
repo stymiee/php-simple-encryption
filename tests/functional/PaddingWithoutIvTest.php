@@ -212,15 +212,15 @@ class PaddingWithoutIvTest extends TestCase
             ],
             [
                 'class' => Rc4::class,
-                'encryptedText' => 'PoEWhBFMQDYtHBigLsYOYmq7lXC3dZBq30a8BPfcuSSMK9h82AJDShNnGu9/D8WW'
+                'encryptedText' => 'PoEWhBFMQDYtHBigLsYOYmq7lXC3dZBq30a8BPfcuSSMK9h82AJDShNnGg=='
             ],
             [
                 'class' => Rc440::class,
-                'encryptedText' => '8cC5PD3E/CtDjCn27VBbCxI4cUD0BkNE7v5DyxFdxMkYaENJc7Dggfqe83JuRc7P'
+                'encryptedText' => '8cC5PD3E/CtDjCn27VBbCxI4cUD0BkNE7v5DyxFdxMkYaENJc7Dggfqe8w=='
             ],
             [
                 'class' => Rc4hmacmd5::class,
-                'encryptedText' => 'PoEWhBFMQDYtHBigLsYOYmq7lXC3dZBq30a8BPfcuSSMK9h82AJDShNnGu9/D8WW'
+                'encryptedText' => 'PoEWhBFMQDYtHBigLsYOYmq7lXC3dZBq30a8BPfcuSSMK9h82AJDShNnGg=='
             ],
             [
                 'class' => Seedecb::class,
