@@ -17,7 +17,7 @@ final class Aria192cbc extends ACipherWithInitializationVector
     use Decrypt;
     use EncryptWithPadding;
 
-    public const BLOCK_SIZE = 8;
+    public const BLOCK_SIZE = 16;
     public const IV_LENGTH = 16;
     public const CIPHER = 'ARIA-192-CBC';
 }

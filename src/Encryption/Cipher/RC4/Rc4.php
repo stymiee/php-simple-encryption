@@ -18,7 +18,7 @@ final class Rc4 extends ACipherNoInitializationVector
     use DecryptNoIV;
     use EncryptWithPaddingNoIV;
 
-    public const BLOCK_SIZE = 8;
+    public const BLOCK_SIZE = 1;
     public const IV_LENGTH = 0;
     public const CIPHER = 'RC4';
 }

@@ -17,7 +17,7 @@ final class Camellia128cbc extends ACipherWithInitializationVector
     use Decrypt;
     use EncryptWithPadding;
 
-    public const BLOCK_SIZE = 8;
+    public const BLOCK_SIZE = 16;
     public const IV_LENGTH = 16;
     public const CIPHER = 'CAMELLIA-128-CBC';
 }
