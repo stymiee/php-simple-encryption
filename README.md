@@ -1,8 +1,7 @@
 [![Latest Stable Version](https://poser.pugx.org/stymiee/php-simple-encryption/v/stable.svg)](https://packagist.org/packages/stymiee/php-simple-encryption)
 [![Total Downloads](https://poser.pugx.org/stymiee/php-simple-encryption/downloads)](https://packagist.org/packages/stymiee/php-simple-encryption)
-![Build](https://github.com/stymiee/php-simple-encryption/workflows/Build/badge.svg?branch=master)
+[![Build](https://github.com/stymiee/php-simple-encryption/actions/workflows/php.yml/badge.svg)](https://github.com/stymiee/php-simple-encryption/actions/workflows/php.yml)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/stymiee/php-simple-encryption/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/stymiee/php-simple-encryption/?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/acfb3fdd72012a3f7cd6/maintainability)](https://codeclimate.com/github/stymiee/php-simple-encryption/maintainability)
 [![License](https://poser.pugx.org/stymiee/php-simple-encryption/license)](https://packagist.org/packages/stymiee/php-simple-encryption)
 # PHP Simple Encryption (php-simple-encryption)
 
@@ -69,6 +68,8 @@ An exception may be thrown if:
 - `generateIv()` is unable to generate a initialization vector (`Encryption\Exception\GenerateIvException`).
 - `Encryption::encrypt()` is unable to encrypt the data (`Encryption\Exception\EncryptException`).
 - `Encryption::decrypt()` is unable to decrypt the data (`Encryption\Exception\DecryptException`).
+- You try to get the default cipher for a version that does not exist (`Encryption\Exception\InvalidVersionException`)
+- You try to use an initialization vector for a cipher that does not require one (`Encryption\Exception\EncryptionException`)
 
 ## Supported Ciphers
 
