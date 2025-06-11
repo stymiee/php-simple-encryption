@@ -32,7 +32,7 @@ class Encryption
     /**
      * @since 1.0.2
      */
-    public const VERSION = 1;
+    public const VERSION = 2;
 
     /**
      * Builds and returns an encryption object with the specified cipher. Defaults to the default cipher which will
@@ -131,6 +131,7 @@ class Encryption
     {
         $defaultCiphers = [
             self::VERSION => self::DEFAULT_CIPHER,
+            1 => 'AES-256-CBC'
         ];
         if (isset($defaultCiphers[$version])) {
             return $defaultCiphers[$version];
