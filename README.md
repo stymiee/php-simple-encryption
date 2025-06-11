@@ -21,7 +21,7 @@ Here is a minimal example of a `composer.json` file that just defines a dependen
 
     {
         "require": {
-            "stymiee/php-simple-encryption": "^1"
+            "stymiee/php-simple-encryption": "^2"
         }
     }
 
