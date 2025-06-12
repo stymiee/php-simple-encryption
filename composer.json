@@ -39,5 +39,9 @@
         "phpmd": "php vendor/phpmd/phpmd/src/bin/phpmd src/ html cleancode --reportfile build/phpmd/report.html --ignore-violations-on-exit",
         "phpdoc": "phpdoc -d src -t build/docs",
         "insights": ".\\vendor\\bin\\phpinsights.bat analyse src/Encryption --format=console > build/insights/report.txt"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
     }
 }

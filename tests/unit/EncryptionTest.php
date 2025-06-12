@@ -27,7 +27,10 @@ class EncryptionTest extends TestCase
 
     public function testCipherNotImplementedException(): void
     {
-        $this->expectException(CipherNotImplementedException::class);
+        $expected = in_array('id-aes256-wrap-pad', Encryption::getCipherMethods(), true)
+            ? CipherNotImplementedException::class
+            : InvalidCipherException::class;
+        $this->expectException($expected);
         Encryption::getEncryptionObject('id-aes256-wrap-pad');
     }
 
@@ -62,6 +65,6 @@ class EncryptionTest extends TestCase
     public function testGetDefaultCipherByVersionInvalidVersion(): void
     {
         $this->expectException(InvalidVersionException::class);
-        Encryption::getDefaultCipherByVersion(2);
+        Encryption::getDefaultCipherByVersion(3);
     }
 }

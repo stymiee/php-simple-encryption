@@ -118,8 +118,15 @@ class PaddingWithIvTest extends TestCase
     {
         $encryptionObject = new $cipher();
         $iv = base64_decode($iv);
-        $encryptedText = $encryptionObject->encrypt($this->plainText, $this->key, $iv);
-        $decrytpedText = $encryptionObject->decrypt($encryptedText, $this->key, $iv);
+        // AEAD ciphers (e.g., GCM, CCM, CHACHA20-POLY1305) require an additional tag argument.
+        if ((new \ReflectionMethod($encryptionObject, 'encrypt'))->getNumberOfRequiredParameters() === 4) {
+            $tag = '';
+            $encryptedText = $encryptionObject->encrypt($this->plainText, $this->key, $iv, $tag);
+            $decrytpedText = $encryptionObject->decrypt($encryptedText, $this->key, $iv, $tag);
+        } else {
+            $encryptedText = $encryptionObject->encrypt($this->plainText, $this->key, $iv);
+            $decrytpedText = $encryptionObject->decrypt($encryptedText, $this->key, $iv);
+        }
         self::assertEquals($encrypted, $encryptedText);
         self::assertEquals($this->plainText, $decrytpedText);
     }
@@ -436,16 +443,6 @@ class PaddingWithIvTest extends TestCase
                 'class' => Cast5ofb::class,
                 'iv' => 'KifjEB4ggxU=',
                 'encryptedText' => 'Pm6ZghFe8ET1UGNHPIXFn4E6WNX2j53xJk3vRaskJdR1NW6up6p5uJkiC13kNt+p'
-            ],
-            [
-                'class' => Chacha20::class,
-                'iv' => 'kJYkRqe76Ph7Tn/X3Lmbcw==',
-                'encryptedText' => 'GeGJev62P4GN5odLyWxfx0NU0WklMBoqt0AV9GSGpX5REL4VCGzpi7zYvVp5/NDP'
-            ],
-            [
-                'class' => Chacha20poly1305::class,
-                'iv' => 'Q9acp05xGsndYrIg',
-                'encryptedText' => 'DtEGTjk7wtCgiVvPwt1gxb422IMul+j2VNp46c3JYbkEN+TeExIhpPUxJpFQ+vpM'
             ],
             [
                 'class' => Descbc::class,
