@@ -60,7 +60,7 @@ Outputs
     Cipher   : AES-256-CBC
     Encrypted: lierDqV4Qo3Cm87YU01K+YnQsDGrFsYypjHJVZaagqfLFg7xb2T7b9qfqb4NcoIGcTzqvQbOx72AVgbuRFxqgg==
     Decrypted: The quick brown fox jumps over the lazy dog
-    Version  : 1
+    Version  : 2
 
 An exception may be thrown if:
 - An invalid/unsupported cipher is attempted to be used (`Encryption\Exception\InvalidCipherException`)
