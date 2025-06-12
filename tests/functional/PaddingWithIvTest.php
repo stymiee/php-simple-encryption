@@ -445,6 +445,18 @@ class PaddingWithIvTest extends TestCase
                 'encryptedText' => 'Pm6ZghFe8ET1UGNHPIXFn4E6WNX2j53xJk3vRaskJdR1NW6up6p5uJkiC13kNt+p'
             ],
             [
+                'class' => Chacha20::class,
+                'iv' => 'kJYkRqe76Ph7Tn/X3Lmbcw==',
+                'encryptedText' => 'GeGJev62P4GN5odLyWxfx0NU0WklMBoqt0AV9GSGpX5REL4VCGzpi7zYvVp5/NDP'
+            ],
+            /*
+            [
+                'class' => Chacha20poly1305::class,
+                'iv' => 'Q9acp05xGsndYrIg',
+                'encryptedText' => 'DtEGTjk7wtCgiVvPwt1gxb422IMul+j2VNp46c3JYbkEN+TeExIhpPUxJpFQ+vpM'
+            ],
+            */
+            [
                 'class' => Descbc::class,
                 'iv' => 't276c7y6L90=',
                 'encryptedText' => 'xga0aJ0QlQxS0kEE7iTGrenY0QHKWj8oHiHNg8UrDGVChw+PFXD0eblyYRbJtgOdjMam4kQ/hS4='
