@@ -24,8 +24,8 @@ use PHPUnit\Framework\TestCase;
 
 class PaddingWithIvAeadTest extends TestCase
 {
-    private $key;
-    private $plainText;
+    private string $key;
+    private string $plainText;
 
     public function setUp(): void
     {
@@ -50,98 +50,98 @@ class PaddingWithIvAeadTest extends TestCase
         self::assertEquals($this->plainText, $decrytpedText);
     }
 
-    public function dataProvider(): array
+    public static function dataProvider(): array
     {
         return [
             [
-                'class' => Aes128ccm::class,
+                'cipher' => Aes128ccm::class,
                 'iv' => 'ljYh4aEhDR8gApg6',
-                'encryptedText' => 'lzhThjiSfnsGhaWpqYHefzNMoKmpItWqyy8O9YYCrw4LqeMV3qXDYYnnFqb6A+Bk'
+                'encrypted' => 'lzhThjiSfnsGhaWpqYHefzNMoKmpItWqyy8O9YYCrw4LqeMV3qXDYYnnFqb6A+Bk'
             ],
             [
-                'class' => Aes128gcm::class,
+                'cipher' => Aes128gcm::class,
                 'iv' => 'uSAX2EUkbGKthx+H',
-                'encryptedText' => 'igb9Jf2Tm6aDWcuDJgq292vtPxYxRsVWGIUhaJU6XpjXLqCv2cVR5ODvq8dx65vR'
+                'encrypted' => 'igb9Jf2Tm6aDWcuDJgq292vtPxYxRsVWGIUhaJU6XpjXLqCv2cVR5ODvq8dx65vR'
             ],
             [
-                'class' => Aes192ccm::class,
+                'cipher' => Aes192ccm::class,
                 'iv' => 'WIPSkeGyy97h39uh',
-                'encryptedText' => 'AIzFC1LKxbK9/FlP8YRERXI3GyJKtFp8pJNQt2iboCXP4x4jbzjJdS60yeSqCZUl'
+                'encrypted' => 'AIzFC1LKxbK9/FlP8YRERXI3GyJKtFp8pJNQt2iboCXP4x4jbzjJdS60yeSqCZUl'
             ],
             [
-                'class' => Aes192gcm::class,
+                'cipher' => Aes192gcm::class,
                 'iv' => '7VW/WQCtZIBHwt6p',
-                'encryptedText' => 'XSDVSb7109Wic2dRnLtIgTZT9UDviKMoRFwGsTK+7XJRmIXWVpnHTYk/gms1mPhG'
+                'encrypted' => 'XSDVSb7109Wic2dRnLtIgTZT9UDviKMoRFwGsTK+7XJRmIXWVpnHTYk/gms1mPhG'
             ],
             [
-                'class' => Aes256ccm::class,
+                'cipher' => Aes256ccm::class,
                 'iv' => 'jNTNXxbKy2/COMyO',
-                'encryptedText' => 'TK4cooqVagXr5YWcZOZauFY4d50ZhJ1deOMPJctg+Nf0nqkZ7C0pgna4Kg=='
+                'encrypted' => 'TK4cooqVagXr5YWcZOZauFY4d50ZhJ1deOMPJctg+Nf0nqkZ7C0pgna4Kg=='
             ],
             [
-                'class' => Aes256gcm::class,
+                'cipher' => Aes256gcm::class,
                 'iv' => 'A21FNKUvS1nkqGFI',
-                'encryptedText' => 'dxYMKnJsKhmZ0bGjHOKCka3g63LzvwbMCdUsNoH8H0CPDAbSmjUB6LyFvA=='
+                'encrypted' => 'dxYMKnJsKhmZ0bGjHOKCka3g63LzvwbMCdUsNoH8H0CPDAbSmjUB6LyFvA=='
             ],
             [
-                'class' => Aria128ccm::class,
+                'cipher' => Aria128ccm::class,
                 'iv' => 'oBsOj5WOnPh2cMnf',
-                'encryptedText' => 'F0lFYgHScWLMvi0ou+kHZi6jqjQG7l1jtHKVBEHJRtqS22b3zklFx28idA=='
+                'encrypted' => 'F0lFYgHScWLMvi0ou+kHZi6jqjQG7l1jtHKVBEHJRtqS22b3zklFx28idA=='
             ],
             [
-                'class' => Aria128gcm::class,
+                'cipher' => Aria128gcm::class,
                 'iv' => 'GtMRWbxotmZ1SPsq',
-                'encryptedText' => 'jJoMLli/0xdW9fDMnhgGhphkXgNmgPJP8BvYBvTsvTpJThIBMNhMpAEcoA=='
+                'encrypted' => 'jJoMLli/0xdW9fDMnhgGhphkXgNmgPJP8BvYBvTsvTpJThIBMNhMpAEcoA=='
             ],
             [
-                'class' => Aria192ccm::class,
+                'cipher' => Aria192ccm::class,
                 'iv' => 'mg5tclrVvJ7F8P4F',
-                'encryptedText' => 'ReBk+neP99JYTvGFyHWPMwYbZveLC0yDF62YvjC3gECWEIFW3e8kv8Hbiw=='
+                'encrypted' => 'ReBk+neP99JYTvGFyHWPMwYbZveLC0yDF62YvjC3gECWEIFW3e8kv8Hbiw=='
             ],
             [
-                'class' => Aria192gcm::class,
+                'cipher' => Aria192gcm::class,
                 'iv' => 'yHxjxoseUbEctW80',
-                'encryptedText' => 'RxO9skcl2yatnB3QHLwFrrISjrNlVdBlpnoErYS4gHWxlF9ItwHNniGmIg=='
+                'encrypted' => 'RxO9skcl2yatnB3QHLwFrrISjrNlVdBlpnoErYS4gHWxlF9ItwHNniGmIg=='
             ],
             [
-                'class' => Aria256ccm::class,
+                'cipher' => Aria256ccm::class,
                 'iv' => 'Y7ZRNS/RMu46bVGo',
-                'encryptedText' => '9UUvLgXdkMVQPAxJdhAltcTvEp1v+nC6mGlPo8p61jz2y4QAeq7OW34qRA=='
+                'encrypted' => '9UUvLgXdkMVQPAxJdhAltcTvEp1v+nC6mGlPo8p61jz2y4QAeq7OW34qRA=='
             ],
             [
-                'class' => Aria256gcm::class,
+                'cipher' => Aria256gcm::class,
                 'iv' => 'JnRFY8EvCMb2Qw6b',
-                'encryptedText' => 'oYFFnXn6bgyPV0EQXtQLnRc0uzB3tFFL0wgFkouVTJKlwo+sF3P4Za791g=='
+                'encrypted' => 'oYFFnXn6bgyPV0EQXtQLnRc0uzB3tFFL0wgFkouVTJKlwo+sF3P4Za791g=='
             ],
             [
-                'class' => Idaes128ccm::class,
+                'cipher' => Idaes128ccm::class,
                 'iv' => 'lkAoiRVbyl+Cpmt+',
-                'encryptedText' => '56lJ2KF/38iImAE2fJV3dxsX0IvWqBwiPLgoEvyGHjUPpuqCipzer7fUhPqTpRZl'
+                'encrypted' => '56lJ2KF/38iImAE2fJV3dxsX0IvWqBwiPLgoEvyGHjUPpuqCipzer7fUhPqTpRZl'
             ],
             [
-                'class' => Idaes128gcm::class,
+                'cipher' => Idaes128gcm::class,
                 'iv' => 'EDsKT2sPEQg4sgjW',
-                'encryptedText' => 'Y/SdxnXZJQoWc6FhLGJzHChVrHaHVb9grsuIqwUKMKe7c51uco8rRSNo2p+47pjr'
+                'encrypted' => 'Y/SdxnXZJQoWc6FhLGJzHChVrHaHVb9grsuIqwUKMKe7c51uco8rRSNo2p+47pjr'
             ],
             [
-                'class' => Idaes192ccm::class,
+                'cipher' => Idaes192ccm::class,
                 'iv' => 'Q7AokS4z/gSS7p1Q',
-                'encryptedText' => 'W1AAWSVpLyQNMt1OsCNd7PmDV6o1B/O/rj/SzIXRuxnYmuq+hYbdeAtBI2LySCG2'
+                'encrypted' => 'W1AAWSVpLyQNMt1OsCNd7PmDV6o1B/O/rj/SzIXRuxnYmuq+hYbdeAtBI2LySCG2'
             ],
             [
-                'class' => Idaes192gcm::class,
+                'cipher' => Idaes192gcm::class,
                 'iv' => 'P3o8ZGDkUJ0XQ/Ho',
-                'encryptedText' => 'S+5K/FrFsJ5nkNqhp8YKCUMLHodIXcz5W9BN5RQXYzF8OZC6cigIBxULtAXTWtzy'
+                'encrypted' => 'S+5K/FrFsJ5nkNqhp8YKCUMLHodIXcz5W9BN5RQXYzF8OZC6cigIBxULtAXTWtzy'
             ],
             [
-                'class' => Idaes256ccm::class,
+                'cipher' => Idaes256ccm::class,
                 'iv' => 'D4U3gnBIms+Ob1GW',
-                'encryptedText' => 'TVik7zIqAsgr90l3lzCkVe6BcMKgZq+t6g7jVI9Vm1hEoEEJ06gOLlHR+QUMbb3d'
+                'encrypted' => 'TVik7zIqAsgr90l3lzCkVe6BcMKgZq+t6g7jVI9Vm1hEoEEJ06gOLlHR+QUMbb3d'
             ],
             [
-                'class' => Idaes256gcm::class,
+                'cipher' => Idaes256gcm::class,
                 'iv' => 'lRtt1LUIxvmvJoGA',
-                'encryptedText' => '1BFoUnqdVTkt1Sjc/qtvhy/7DtaJImp42Etd3sZGRKxqQWfjV66NEYDP2d1YMQxb'
+                'encrypted' => '1BFoUnqdVTkt1Sjc/qtvhy/7DtaJImp42Etd3sZGRKxqQWfjV66NEYDP2d1YMQxb'
             ],
         ];
     }
