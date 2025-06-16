@@ -26,18 +26,24 @@ trait GenerateIv
     {
         $success = false;
         $random = openssl_random_pseudo_bytes(openssl_cipher_iv_length(static::CIPHER), $success);
-        if (!$success) {
-            try {
-                $random = random_bytes(static::IV_LENGTH);
-            } catch (Exception $e) {
-                if ($allowLessSecureIv) {
-                    $random = $this->generateInsecureIv(static::IV_LENGTH);
-                } else {
-                    throw new GenerateIvException('Unable to generate initialization vector (IV)');
-                }
+        return match(true) {
+            $success => $random,
+            default => match(true) {
+                $this->tryRandomBytes() => random_bytes(static::IV_LENGTH),
+                $allowLessSecureIv => $this->generateInsecureIv(static::IV_LENGTH),
+                default => throw new GenerateIvException('Unable to generate initialization vector (IV)')
             }
+        };
+    }
+
+    private function tryRandomBytes(): bool
+    {
+        try {
+            random_bytes(static::IV_LENGTH);
+            return true;
+        } catch (Exception $e) {
+            return false;
         }
-        return $random;
     }
 
     /**

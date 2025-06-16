@@ -129,14 +129,10 @@ class Encryption
      */
     public static function getDefaultCipherByVersion(int $version = self::VERSION): string
     {
-        $defaultCiphers = [
+        return match($version) {
             self::VERSION => self::DEFAULT_CIPHER,
-            1 => 'AES-256-CBC'
-        ];
-        if (isset($defaultCiphers[$version])) {
-            return $defaultCiphers[$version];
-        }
-
-        throw new InvalidVersionException(sprintf('Invalid version: [%s]', $version));
+            1 => 'AES-256-CBC',
+            default => throw new InvalidVersionException(sprintf('Invalid version: [%s]', $version))
+        };
     }
 }
